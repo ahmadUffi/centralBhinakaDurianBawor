@@ -1,5 +1,7 @@
 import React from "react";
 
-export const MitraPage = () => {
+function MitraPage() {
   return <div>MitraPage</div>;
-};
+}
+
+export default MitraPage;

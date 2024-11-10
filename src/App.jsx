@@ -1,18 +1,18 @@
-import { Route } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./page/Home";
 import Mitra from "./page/Mitra";
 import Product from "./page/Product";
+import MitraPage from "./page/MitraPage";
 
 const App = () => {
   return (
-    <Route>
-      <Route path="/" element={<Home />} />
-      <Route path="mitra" element={<Mitra />}>
-        <Route path=":id" element={<Product />} />
-      </Route>
+    <Routes>
+      <Route index path="/" element={<Home />} />
+      <Route path="mitra/" element={<Mitra />} />
+      <Route path="mitra/:id" element={<MitraPage />} />
       <Route path="product" element={<Product />} />
       <Route path="*" element={<Home />} />
-    </Route>
+    </Routes>
   );
 };
 
