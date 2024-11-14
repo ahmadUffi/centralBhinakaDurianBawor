@@ -11,3 +11,13 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* custom-shadow.css for card Mitra.jsx */
+.custom-shadow {
+  box-shadow: 
+    0 4px 6px rgba(68, 66, 66, 0.1), 
+    4px 0 6px rgba(68, 66, 66, 0.1),
+    -4px 0 6px rgba(68, 66, 66, 0.1),
+    0 -4px 6px rgba(68, 66, 66, 0.1);
+}
