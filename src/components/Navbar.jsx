@@ -1,17 +1,16 @@
 import React from "react";
 import logo from "../assets/image/logo.png";
 import { NavLink } from "react-router-dom";
-import Wrapper from "./Wrapper";
 
 const Navbar = () => {
   return (
-    <div className="navbar w-full flex justify-center items-start fixed w-full top-4">
+    <div className="navbar w-full flex justify-center items-start fixed top-4 z-50">
       <div className=" flex justify-between bg-white h-[70px] shadow-lg  w-[95%] items-center p-1 rounded-md">
         <div className="icon">
           <img src={logo} alt="logo" width={"60%"} />
         </div>
         <div className="action">
-          <ul className="flex gap-3 mr-2">
+          <ul className="flex gap-4 mr-2 fo">
             <NavLink to="/">Home</NavLink>
             <NavLink to="product">Product</NavLink>
             <NavLink to="mitra">Mitra</NavLink>
