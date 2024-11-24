@@ -4,6 +4,7 @@ import Mitra from "./page/Mitra";
 import Product from "./page/Product";
 import MitraPage from "./page/MitraPage";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="product" element={<Product />} />
         <Route path="*" element={<Home />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 };
