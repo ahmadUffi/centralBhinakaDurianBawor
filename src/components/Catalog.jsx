@@ -3,9 +3,9 @@ import logo from "../assets/image/logo2.png";
 
 const Catalog = () => {
   return (
-    <div className="relative catalog p-2 rounded-lg bg-lightYellow md:min-w-[600px] md:h-[300px]  min-w-[350px] h-[200px] inline-block ">
-      <div className="relative content w-full h-full bg-BgCatalogDuren bg-cover bg-center py-4 px-4 rounded-lg">
-        <div className="logo absolute top-0 left-0">
+    <div className="relative z-0 catalog p-2 rounded-lg bg-lightYellow md:min-w-[600px] md:h-[300px]  min-w-[350px] h-[200px] inline-block ">
+      <div className="relative z-10 content w-full h-full bg-BgCatalogDuren bg-cover bg-center py-4 px-4 rounded-lg">
+        <div className="logo z-20 absolute top-0 left-0">
           <img src={logo} alt="logo" width={"40%"} />
         </div>
         <div className="content_catalog absolute bottom-0 text-white py-4 px-4">
