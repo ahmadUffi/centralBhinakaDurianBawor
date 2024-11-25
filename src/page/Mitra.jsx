@@ -9,19 +9,19 @@ const Mitra = () => {
       <Wrapper>
         <section id="mitra">
           <div className="mt-32">
-            <CardMitra 
-              image={ image1 } 
-              title="Durian Delights" 
+            <CardMitra
+              image={image1}
+              title="Durian Delights"
               desc="Menyediakan berbagai jenis durian premium dari berbagai daerah. Mengutamakan kualitas rasa dengan pilihan durian segar dan produk olahan durian, seperti es krim, pancake, dan smoothie."
             />
-            <CardMitra 
-              image={ image1 } 
-              title="Durian Delights" 
+            <CardMitra
+              image={image1}
+              title="Durian Delights"
               desc="Menyediakan berbagai jenis durian premium dari berbagai daerah. Mengutamakan kualitas rasa dengan pilihan durian segar dan produk olahan durian, seperti es krim, pancake, dan smoothie."
             />
-            <CardMitra 
-              image={ image1 } 
-              title="Durian Delights" 
+            <CardMitra
+              image={image1}
+              title="Durian Delights"
               desc="Menyediakan berbagai jenis durian premium dari berbagai daerah. Mengutamakan kualitas rasa dengan pilihan durian segar dan produk olahan durian, seperti es krim, pancake, dan smoothie."
             />
           </div>
