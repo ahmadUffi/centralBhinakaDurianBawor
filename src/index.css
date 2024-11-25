@@ -8,6 +8,10 @@ body {
   font-family: "roboto", arial, helvetica, sans-serif;
 }
 
+.catalogs::-webkit-scrollbar {
+  display: none;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

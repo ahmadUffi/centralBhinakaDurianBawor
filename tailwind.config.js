@@ -13,6 +13,11 @@ export default {
         lightYellow: "#FDE050",
         darkYellow: "#FCC52D",
       },
+      borderColor: {
+        primary: "#343131",
+        lightYellow: "#FDE050",
+        darkYellow: "#FCC52D",
+      },
     },
   },
   plugins: [],
