@@ -1,5 +1,5 @@
 import React from "react";
-import bgOverlayLeft from "../assets/image/bgOverlayLeft.png";
+import bgOverlayLeft from "../assets/image/bgOverlayleft.png";
 import bgOverlayRight from "../assets/image/bgOverlayRight.png";
 
 const Welcome = () => {
