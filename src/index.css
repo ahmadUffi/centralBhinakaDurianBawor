@@ -17,3 +17,16 @@ body {
   box-shadow: 0 4px 6px rgba(68, 66, 66, 0.1), 4px 0 6px rgba(68, 66, 66, 0.1),
     -4px 0 6px rgba(68, 66, 66, 0.1), 0 -4px 6px rgba(68, 66, 66, 0.1);
 }
+
+/* Custom Box Shadow for CardProduct.jsx */
+.custom-box-shadow {
+  box-shadow: 7px -3px 0px 0px rgba(243, 198, 30,0.9);
+  -webkit-box-shadow: 7px -3px 0px 0px rgba(243, 198, 30,0.9);
+  -moz-box-shadow: 7px -3px 0px 0px rgba(243, 198, 30,0.9);
+}
+
+.custom-box-shadow-green {
+  box-shadow: 7px -3px 0px 0px rgba(167, 188, 46, 1);
+  -webkit-box-shadow: 7px -3px 0px 0px rgba(167, 188, 46, 1);
+  -moz-box-shadow: 7px -3px 0px 0px rgba(167, 188, 46, 1);
+}
