@@ -1,3 +1,16 @@
 .welcome {
   background-image: url("./assets/image/background.png");
 }
+
+.catalogs::-webkit-scrollbar {
+  display: none;
+}
+
+.swiper-slide {
+  filter: blur(2px); /* Buat semua slide menjadi buram */
+  transition: filter 0.3s ease-in-out; /* Animasi untuk efek halus */
+}
+
+.swiper-slide-active {
+  filter: blur(0); /* Hapus blur untuk slide yang aktif */
+}
