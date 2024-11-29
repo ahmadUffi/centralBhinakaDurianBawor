@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 import Home from "./page/Home";
 import Mitra from "./page/Mitra";
 import Product from "./page/Product";
