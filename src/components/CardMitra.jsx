@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function CardMitra({ image, title, desc, isOdd }) {
   const classImage = `flex justify-center w-full sm:w-[90%] md:w-[80%] lg:w-1/2 ${ isOdd ? "lg:order-2" : "lg:order-1" }`;
@@ -26,7 +26,7 @@ function CardMitra({ image, title, desc, isOdd }) {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default CardMitra
+export default CardMitra;

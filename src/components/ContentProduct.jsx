@@ -49,7 +49,7 @@ function ContentProduct({ titleContent }) {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default ContentProduct
+export default ContentProduct;
