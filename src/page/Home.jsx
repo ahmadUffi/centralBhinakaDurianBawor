@@ -5,6 +5,7 @@ import Welcome from "../components/Welcome";
 import Catalog from "../components/Catalog";
 import image1 from "../assets/image/img_mitra_1.png";
 import CardMitra from "../components/CardMitra";
+import Galeri from "../components/Galeri";
 
 function Home() {
   const demo = [1, 2, 3, 4];
@@ -41,6 +42,9 @@ function Home() {
             <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold ">
               Galeri
             </h1>
+            <div className="">
+              <Galeri />
+            </div>
           </div>
           {/* akhir Fasilitas */}
           <br />

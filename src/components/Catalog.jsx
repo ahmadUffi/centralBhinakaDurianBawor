@@ -1,10 +1,18 @@
 import React from "react";
 import logo from "../assets/image/logo2.png";
+import gambar from "../assets/image/bgCatalogDuren.jpg";
 
 const Catalog = () => {
   return (
     <div className="relative z-0 catalog p-2 rounded-lg bg-lightYellow md:min-w-[600px] md:h-[300px]  min-w-[350px] h-[200px] inline-block ">
-      <div className="relative z-10 content w-full h-full bg-BgCatalogDuren bg-cover bg-center py-4 px-4 rounded-lg">
+      <div className="relative z-10 content w-full h-full  bg-cover bg-center py-4 px-4 rounded-lg">
+        <div className="gambar w-full h-full">
+          <img
+            src={gambar}
+            alt=""
+            className="w-full h-full absolute top-0 left-0  "
+          />
+        </div>
         <div className="logo z-20 absolute top-0 left-0">
           <img src={logo} alt="logo" width={"40%"} />
         </div>

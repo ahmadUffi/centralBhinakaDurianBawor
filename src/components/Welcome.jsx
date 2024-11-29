@@ -5,7 +5,7 @@ import bgOverlayRight from "../assets/image/bgOverlayRight.png";
 const Welcome = () => {
   return (
     <div
-      className={`welcome h-[100vh] w-full bg-BgWelcoming bg-cover bg-center relative overflow-hidden`}
+      className={`welcome h-[100vh] w-full bg-cover bg-center relative overflow-hidden`}
     >
       <img
         src={bgOverlayLeft}
