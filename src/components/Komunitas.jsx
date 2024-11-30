@@ -7,7 +7,7 @@ const Komunitas = () => {
       <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold ">
         Kenapa Banyumas ?
       </h1>
-      <div className="text-center w-[100%] inline-block font-thin text-[11px] md:text-[16px]">
+      <div className="text-center w-[100%] inline-block text-[12px] md:text-[16px]">
         Banyumas dikenal sebagai salah satu daerah penghasil durian terbaik di
         Indonesia. Dengan varian yang unik dan cita rasa yang luar biasa, durian
         Banyumas menawarkan pengalaman rasa yang tak terlupakan dan
@@ -21,7 +21,7 @@ const Komunitas = () => {
         />
       </div>
 
-      <div className="text-justify columns-rule md:w-[80%] w-[100%] mt-7 md:leading-8 columns-2 inline-block font-thin text-[11px] md:text-[18px]">
+      <div className="text-justify columns-rule md:w-[80%] w-[100%] mt-7 md:leading-8 columns-2 inline-block text-[12px] md:text-[18px]">
         Banyumas dikenal sebagai salah satu daerah penghasil durian terbaik di
         Indonesia. Dengan varian yang unik dan cita rasa yang luar biasa, durian
         Banyumas menawarkan pengalaman rasa yang tak terlupakan dan
