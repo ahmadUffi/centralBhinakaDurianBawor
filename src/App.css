@@ -3,14 +3,48 @@
 }
 
 .catalogs::-webkit-scrollbar {
-  display: none;
+  width: 10px;
+  background-color: #ffffff;
 }
 
+.catalogs::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to top,
+    rgb(122, 153, 217) 44%,
+    rgb(73, 125, 189) 72%,
+    rgb(225, 112, 6) 86%
+  );
+}
+
+.catalogs::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.catalogs {
+  overflow-x: scroll !important;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(252, 197, 45) #f5f5f5;
+}
 .swiper-slide {
-  filter: blur(2px); /* Buat semua slide menjadi buram */
-  transition: filter 0.3s ease-in-out; /* Animasi untuk efek halus */
+  filter: blur(2px);
+  transition: filter 0.3s ease-in-out;
+}
+.swiper-slide-active {
+  filter: blur(0);
 }
 
-.swiper-slide-active {
-  filter: blur(0); /* Hapus blur untuk slide yang aktif */
+.komunitas-container {
+  width: max-content;
+}
+
+.columns-rule {
+  column-rule: 0.1rem solid #fcc52d;
+  column-gap: 40px !important;
+}
+
+.box-shadow {
+  box-shadow: rgba(17, 17, 26, 0.3) 0px 0px 16px;
 }

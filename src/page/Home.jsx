@@ -6,9 +6,14 @@ import Catalog from "../components/Catalog";
 import image1 from "../assets/image/img_mitra_1.png";
 import CardMitra from "../components/CardMitra";
 import Galeri from "../components/Galeri";
+import Komunitas from "../components/Komunitas";
+import CatalogCarousel from "../components/CatalogCarousel";
+import MapEmbed from "../components/MapsTugu";
+import { catalogData } from "../data";
 
 function Home() {
   const demo = [1, 2, 3, 4];
+
   return (
     <>
       <Welcome />
@@ -22,23 +27,26 @@ function Home() {
                 <br className="hidden md:block" /> cita rasa unik dan menarik
               </h1>
             </div>
-            <div className="catalogs flex overflow-x-auto gap-[20px] mt-5 ">
-              {demo.map((catalog, index) => (
-                <Catalog key={index} />
+            <div className="catalogs flex gap-[20px] mt-5 ">
+              {catalogData.map((catalog, index) => (
+                <Catalog
+                  key={index}
+                  img={catalog.image}
+                  description={catalog.description}
+                />
               ))}
             </div>
           </div>
           {/* akhir catalog */}
-          {/* Komunitas */}
-          {/* <div className="komunitas-container">
-            <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold ">
-              Komunitas durian bawor
-            </h1>
-          </div> */}
+          {/* Awal Komunitas */}
+          <div className="">
+            <div className="">
+              <Komunitas />
+            </div>
+          </div>
           {/* akhir komunitas */}
-        </div>
-        <div>
-          <div className="komunitas-container">
+          {/* galeri */}
+          <div className="galeri-container">
             <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold ">
               Galeri
             </h1>
@@ -46,13 +54,20 @@ function Home() {
               <Galeri />
             </div>
           </div>
-          {/* akhir Fasilitas */}
-          <br />
-          <br />
-          <br />
-          <br />
+          {/* akhir galeri */}
+
+          {/* awal maps */}
+          <MapEmbed />
         </div>
       </Wrapper>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }

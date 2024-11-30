@@ -1,4 +1,7 @@
 // buat data
+import catalogDurian from "./assets/image/catalogDurian.png";
+import catalogBibit from "./assets/image/catalogBibit.png";
+import catalogOlahan from "./assets/image/catalogOlahan.png";
 
 const mitra = [
   {
@@ -61,7 +64,73 @@ const mitra = [
   },
 ];
 
-const product = [{}];
+const productBibit = [
+  {
+    id: 1,
+    name: "product 1",
+    image: "hasil import gambar",
+  },
+  {
+    id: 2,
+    name: "product 2",
+    image: "hasil import gambar",
+  },
+
+  // PRODUCT BIBIT LAINNYA
+];
+const productDuren = [
+  {
+    id: 1,
+    name: "product 1",
+    image: "hasil import gambar",
+  },
+  {
+    id: 2,
+    name: "product 2",
+    image: "hasil import gambar",
+  },
+
+  // PRODUCT BIBIT LAINNYA
+];
+const productOlahan = [
+  {
+    id: 1,
+    name: "product 1",
+    image: "hasil import gambar",
+  },
+  {
+    id: 2,
+    name: "product 2",
+    image: "hasil import gambar",
+  },
+
+  // PRODUCT BIBIT LAINNYA
+];
+
 const mitraPage = [{}];
 
-export { mitra, product, mitraPage };
+const catalogData = [
+  {
+    id: 1,
+    title: "Catalog Durian",
+    image: catalogDurian,
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+  },
+  {
+    id: 2,
+    title: "Catalog Bibit",
+    image: catalogBibit,
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+  },
+  {
+    id: 3,
+    title: "Catalog Olahan",
+    image: catalogOlahan,
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+  },
+];
+
+export { mitra, mitraPage, catalogData };

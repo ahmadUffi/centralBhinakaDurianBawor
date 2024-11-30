@@ -6,6 +6,7 @@
 
 body {
   font-family: "roboto", arial, helvetica, sans-serif;
+  background-color: #f8f8f8;
 }
 
 @tailwind base;
@@ -20,9 +21,9 @@ body {
 
 /* Custom Box Shadow for CardProduct.jsx */
 .custom-box-shadow {
-  box-shadow: 7px -3px 0px 0px rgba(243, 198, 30,0.9);
-  -webkit-box-shadow: 7px -3px 0px 0px rgba(243, 198, 30,0.9);
-  -moz-box-shadow: 7px -3px 0px 0px rgba(243, 198, 30,0.9);
+  box-shadow: 7px -3px 0px 0px rgba(243, 198, 30, 0.9);
+  -webkit-box-shadow: 7px -3px 0px 0px rgba(243, 198, 30, 0.9);
+  -moz-box-shadow: 7px -3px 0px 0px rgba(243, 198, 30, 0.9);
 }
 
 .custom-box-shadow-green {
