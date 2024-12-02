@@ -1,11 +1,9 @@
-import React from "react";
 import backgroundImage from "../assets/image/background.png";
 import durian from "../assets/image/durian.svg";
 import ScrollableCard from "../components/CatalogCarousel";
 import image1 from "../assets/image/img_mitra_1.png";
 import image2 from "../assets/image/img_mitra_1.png";
 import Wrapper from "../components/Wrapper";
-import Footer from "../components/Footer";
 
 const cardsData = [
   { image: image1, description: "Durian Delights" },
