@@ -19,13 +19,14 @@ const Welcome = () => {
       />
       <div className="wrap mt-[25vh] relative z-10 text-center lg:w-[50%] md:w-[80%] md:ml-[10dvw] p-1">
         <h1 className="md:text-[98px] text-[58px] font-bold">Welcome</h1>
-        <h2 className="md:text-[50px] text-[30px] font-semibold mt-[-20px]">
-          TO DUWOR COMMUNITY
+        <h2 className="md:text-[50px] text-[30px] font-semibold mt-[-20px] uppercase">
+          TO Durian Banyumas
         </h2>
         <p>
-          Kami adalah komunitas yang berfokus pada keberagaman dan pelestarian
-          lingkungan, dengan semangat menciptakan perubahan positif bagi
-          lingkungan dan masyarakat sekitar.
+          Banyumas dikenal sebagai salah satu{" "}
+          <strong>Penghasil Durian Terbaik</strong> di Indonesia, Variatesnya
+          yang unik dan cita rasa yang menggoda membuat durian Banyumas sangat
+          Istimewa
         </p>
         <button className="py-2 px-6 bg-darkYellow rounded-full font-bold mt-3">
           Lebih Banyak

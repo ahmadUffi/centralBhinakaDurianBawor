@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="action">
           <ul className="flex gap-4 mr-2 fo">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="product">Product</NavLink>
+            <NavLink to="products">Product</NavLink>
             <NavLink to="mitra">Mitra</NavLink>
           </ul>
         </div>

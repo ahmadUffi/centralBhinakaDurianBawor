@@ -17,7 +17,7 @@ const Galeri = () => {
     stretch: 0,
     depth: 0,
     modifier: 0,
-    slideShadows: false,
+    slideShadows: true,
   });
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Galeri = () => {
           stretch: -30,
           depth: 210,
           modifier: 2.5,
-          slideShadows: false,
+          slideShadows: true,
         });
         setSize(50);
       } else if (width >= 768) {
@@ -48,7 +48,7 @@ const Galeri = () => {
           stretch: -8,
           depth: 180,
           modifier: 2.5,
-          slideShadow7s: false,
+          slideShadow7s: true,
         });
         setSlideConfig(2);
         setSize(25);
@@ -62,7 +62,7 @@ const Galeri = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-
+  console.log(swiperKey);
   return (
     <div className="slider-container">
       <Swiper
