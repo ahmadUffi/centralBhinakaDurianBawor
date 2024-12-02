@@ -1,12 +1,14 @@
 // buat data
-import catalogDurian from "./assets/image/catalogDurian.png";
-import catalogBibit from "./assets/image/catalogBibit.png";
-import catalogOlahan from "./assets/image/catalogOlahan.png";
 let drivePath = "https://drive.google.com/thumbnail?id=";
 let size = "&sz=w1000";
 let wa = "https://wa.me/";
 let fb = "https://www.facebook.com/";
 let ig = "https://www.instagram.com/";
+
+// Image catalog
+import catalogDurian from "./assets/image/catalogDurian.png";
+import catalogBibit from "./assets/image/catalogBibit.png";
+import catalogOlahan from "./assets/image/catalogOlahan.png";
 
 // Image Durian
 import DurianBawor from "./assets/image/durian/DurianBawor.png";
@@ -222,7 +224,7 @@ const mitra = [
   },
 ];
 
-const productsBibit = [
+const productBibit = [
   {
     id: 1,
     name: "Durian Bawor",
@@ -245,7 +247,7 @@ const productsBibit = [
   },
 ];
 
-const productsDuren = [
+const productDurian = [
   {
     id: 1,
     name: "Durian Bawor",
@@ -271,8 +273,8 @@ const productsDuren = [
 const productOlahan = [
   {
     id: 1,
-    name: "Dodol Durian",
-    image: Dodol,
+    name: "Keripik Durian",
+    image: Keripik,
   },
   {
     id: 2,
@@ -281,49 +283,8 @@ const productOlahan = [
   },
   {
     id: 3,
-    name: "Keripik Durian",
-    image: Keripik,
-  },
-];
-
-const productBibit = [
-  {
-    id: 1,
-    name: "product 1",
-    image: "hasil import gambar",
-  },
-  {
-    id: 2,
-    name: "product 2",
-    image: "hasil import gambar",
-  },
-
-  // PRODUCT BIBIT LAINNYA
-];
-const productDuren = [
-  {
-    id: 1,
-    name: "product 1",
-    image: "hasil import gambar",
-  },
-  {
-    id: 2,
-    name: "product 2",
-    image: "hasil import gambar",
-  },
-
-  // PRODUCT BIBIT LAINNYA
-];
-const productOlahan = [
-  {
-    id: 1,
-    name: "product 1",
-    image: "hasil import gambar",
-  },
-  {
-    id: 2,
-    name: "product 2",
-    image: "hasil import gambar",
+    name: "Dodol Durian",
+    image: Dodol,
   },
 
   // PRODUCT BIBIT LAINNYA
