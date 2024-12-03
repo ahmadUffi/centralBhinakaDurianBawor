@@ -23,8 +23,8 @@ function ContentProduct({ titleContent }) {
 
   return (
     <>
-      <div className="flex flex-col items-center gap-y-9 w-full">
-        <div className={`bg-gradient-to-r ${ bgHeaderColor } w-max px-6 py-2 rounded-xl mt-7`}>
+      <div className="flex flex-col py-10 custom-shadow rounded-2xl items-center gap-y-10 w-full">
+        <div className={`bg-gradient-to-r ${ bgHeaderColor } w-max px-6 py-2 rounded-xl mt-0`}>
           <h1 className="text-md font-bold">{ titleContent.replace("product", "").toUpperCase() }</h1>
         </div>
         <div className="flex flex-col justify-between gap-y-10 gap-x-5 sm:flex-row sm:flex-wrap sm:justify-center lg:gap-x-20 lg:px-5">
