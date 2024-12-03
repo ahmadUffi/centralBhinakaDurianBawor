@@ -1,18 +1,19 @@
 import React from 'react'
 import CardProduct from './CardProduct'
 import img_durian from "../assets/image/img-product-durian-1-square.png"
+import { product } from '../data';
 
 function ContentProduct({ titleContent }) {
   let bgHeaderColor;
   
   switch (titleContent) {
-    case "BIBIT":
+    case "productBibit":
         bgHeaderColor = "bg-[#A7BC2E]";
       break;
-    case "DURIAN":
+    case "productDurian":
         bgHeaderColor = "bg-darkYellow";
       break;
-    case "OLAHAN PRODUK":
+    case "productOlahan":
         bgHeaderColor = "bg-[#FFE700]";
       break;
     default:
@@ -24,11 +25,18 @@ function ContentProduct({ titleContent }) {
     <>
       <div className="flex flex-col items-center gap-y-9 w-full">
         <div className={`bg-gradient-to-r ${ bgHeaderColor } w-max px-6 py-2 rounded-xl mt-7`}>
-          <h1 className="text-md font-bold">{ titleContent }</h1>
+          <h1 className="text-md font-bold">{ titleContent.replace("product", "").toUpperCase() }</h1>
         </div>
-        <div className="flex flex-col justify-between gap-y-10 gap-x-5 sm:flex-row sm:flex-wrap sm:justify-center lg:gap-x-28 lg:px-5">
-        {/* <div className="flex flex-col justify-between gap-y-10 sm:flex-row sm:gap-x-9 md:gap-x-1 "> */}
-          <CardProduct 
+        <div className="flex flex-col justify-between gap-y-10 gap-x-5 sm:flex-row sm:flex-wrap sm:justify-center lg:gap-x-20 lg:px-5">
+          {/* Edit lg:gap-x from 28 to 20 */}
+
+          { 
+            product[titleContent].map((value, index) => (
+              <CardProduct key={ index } titleContent={ titleContent } image={ value.image } titleCard={ value.name } desc={ `Nikmati sensasi durian berkualitas tinggi langsung dari kebun!` } />
+            )) 
+          }
+
+          {/* <CardProduct 
             titleContent={ titleContent }
             image={ img_durian } 
             titleCard="Durian Bawor" 
@@ -45,7 +53,7 @@ function ContentProduct({ titleContent }) {
             image={ img_durian } 
             titleCard="Durian Bawor" 
             desc="Nikmati sensasi durian berkualitas tinggi langsung dari kebun!" 
-          />
+          /> */}
         </div>
       </div>
     </>

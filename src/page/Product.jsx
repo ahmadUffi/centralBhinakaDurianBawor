@@ -8,7 +8,7 @@ import icProduct2 from "../assets/image/ic-product-2.png";
 import bgHeaderLeft from "../assets/image/bg-header-left.png";
 import bgHeaderRight from "../assets/image/bg-header-right.png";
 import bgHeaderProductLg from "../assets/image/bg-header-product-lg.png";
-import bgHeaderProductMobile from "../assets/image/bg-header-product-lg-mobile.png";
+import { product } from "../data";
 
 const Product = () => {
   return (
@@ -57,9 +57,16 @@ const Product = () => {
             </div>
 
             <div id="card-product" className="my-10 custom-shadow mx-6 px-6 pb-7 rounded-2xl sm:mx-7 md:mx-9">
-              <ContentProduct titleContent="DURIAN"/>
+              {
+                Object.keys(product).map((categoryProduct, index) => {
+                  return (
+                    <ContentProduct key={index} titleContent={ categoryProduct } />
+                  );
+                })
+              }
+              {/* <ContentProduct titleContent="DURIAN"/>
               <ContentProduct titleContent="BIBIT"/>
-              <ContentProduct titleContent="OLAHAN PRODUK"/>
+              <ContentProduct titleContent="OLAHAN PRODUK"/> */}
             </div>
           </div>
         </section>

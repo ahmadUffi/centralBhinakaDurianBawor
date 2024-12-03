@@ -224,6 +224,71 @@ const mitra = [
   },
 ];
 
+
+const product = {
+  productDurian : [
+    {
+      id: 1,
+      name: "Durian Bawor",
+      image: DurianBawor,
+    },
+    {
+      id: 2,
+      name: "Durian Musang King",
+      image: DurianMusangKing,
+    },
+    {
+      id: 3,
+      name: "Durian Duri Hitam",
+      image: DurianMasmuarr,
+    },
+    {
+      id: 4,
+      name: "Durian Montong",
+      image: DurianMontong,
+    },
+  ],
+  productBibit : [
+    {
+      id: 1,
+      name: "Durian Bawor",
+      image: BibitBawor,
+    },
+    {
+      id: 2,
+      name: "Durian Musang King",
+      image: BibitMusangKing,
+    },
+    {
+      id: 3,
+      name: "Durian Duri Hitam",
+      image: BibitDuriHitam,
+    },
+    {
+      id: 4,
+      name: "Durian Montong",
+      image: BibitMontong,
+    },
+  ],
+  productOlahan : [
+    {
+      id: 1,
+      name: "Keripik Durian",
+      image: Keripik,
+    },
+    {
+      id: 2,
+      name: "Juice Durian",
+      image: Juice,
+    },
+    {
+      id: 3,
+      name: "Dodol Durian",
+      image: Dodol,
+    },
+  ],
+};
+
 const productBibit = [
   {
     id: 1,
@@ -316,4 +381,4 @@ const catalogData = [
   },
 ];
 
-export { mitra, mitraPage, catalogData };
+export { mitra, product, mitraPage, catalogData };
