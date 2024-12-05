@@ -12,7 +12,7 @@ function CatalogCarousel({ catalogDatas }) {
           <br className="hidden md:block" /> cita rasa unik dan menarik
         </h1>
       </div>
-      <div className="catalogs flex gap-[20px] mt-5 ">
+      <div className="catalogs flex  justify-evenly mt-5 ">
         {catalogDatas.map((catalog, index) => (
           <Catalog
             key={index}

@@ -18,7 +18,7 @@ const Welcome = ({ bgOverlayRight, name, description }) => {
       />
       <div className="wrap mt-[25vh] relative z-10 text-center lg:w-[50%] md:w-[80%] md:ml-[10dvw] p-1">
         <h1 className="md:text-[98px] text-[58px] font-bold">Welcome</h1>
-        <h2 className="md:text-[50px] text-[30px] font-semibold mt-[-20px] uppercase">
+        <h2 className="md:text-[50px] text-[28px] font-semibold mt-[-20px] uppercase">
           TO {name}
         </h2>
         <p>{description}</p>

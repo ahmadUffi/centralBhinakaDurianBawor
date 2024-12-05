@@ -7,8 +7,11 @@ import Wrapper from "../components/Wrapper";
 import { mitra } from "../data";
 import { useParams } from "react-router-dom";
 import Welcome from "../components/Welcome";
-import Catalog from "../components/Catalog";
 import CatalogCarousel from "../components/CatalogCarousel";
+import ContentProduct from "../components/ContentProduct";
+import Galeri from "../components/Galeri";
+import CardMitra from "../components/CardMitra";
+import MapEmbed from "../components/MapsTugu";
 
 const cardsData = [
   { image: image1, description: "Durian Delights" },
@@ -31,6 +34,52 @@ const MitraPage = () => {
         <div className="w-full field">
           <CatalogCarousel catalogDatas={target.listProducts} />
         </div>
+        {Object.keys(target.product).map((categoryProduct, index) => {
+          return (
+            <ContentProduct
+              key={index}
+              titleContent={categoryProduct}
+              products={target.product}
+            />
+          );
+        })}
+        {/* galeri */}
+        <div className="galeri-container">
+          <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold mb-4">
+            Galeri
+          </h1>
+          <div className="">
+            <Galeri />
+          </div>
+        </div>
+        {/* akhir galeri */}
+        {/* Fasilitas */}
+        <div className="fasilitas-container">
+          <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold mb-4">
+            Fasilitas
+          </h1>
+          <div className="">
+            {target.fasilitas.map((fasilitas, index) => (
+              <CardMitra
+                key={index}
+                title={fasilitas.name}
+                isOdd={index % 2 == 1}
+                desc={fasilitas.description}
+                image={image1}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* fasilitas */}
+        {/* maps */}
+        <div className="maps-container mb-8">
+          <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold mb-4">
+            Lokasi
+          </h1>
+          <MapEmbed src={target.linkMap} />
+        </div>
+        {/* akhir maps */}
       </Wrapper>
     </div>
   );
