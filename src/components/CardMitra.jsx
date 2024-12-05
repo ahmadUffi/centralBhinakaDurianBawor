@@ -8,7 +8,7 @@ function CardMitra({ image, title, desc, isOdd }) {
       <div className="p-6 custom-shadow rounded-2xl mb- lg:p-12 scale-90">
         <div className="flex flex-col justify-center items-center gap-y-4 lg:flex-row gap-x-10">
           <div className={ classImage }>
-            <img src={ image } className="w-full md:scale-90" alt="Mitra_1" />
+            <img src={ image } className="w-full md:scale-90" alt="Mitra" />
           </div>
           <div className="flex flex-col gap-y-4 lg:order-1 lg:w-1/2 lg:gap-y-8">
             <h1 className="text-2xl font-bold md:text-center lg:text-5xl lg:text-left">
