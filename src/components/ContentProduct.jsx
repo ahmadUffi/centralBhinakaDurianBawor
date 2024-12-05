@@ -21,7 +21,7 @@ function ContentProduct({ titleContent, products }) {
   console.log(products);
   return (
     <>
-      <div className="flex flex-col py-10 custom-shadow rounded-2xl items-center gap-y-10 w-full mt-7 px-7">
+      <div className="flex flex-col py-10 custom-shadow rounded-2xl items-center gap-y-10 mt-7 px-7 ">
         <div
           className={`bg-gradient-to-r ${bgHeaderColor} w-max px-6 py-2 rounded-xl mt-0`}
         >
@@ -29,7 +29,7 @@ function ContentProduct({ titleContent, products }) {
             {titleContent.replace("products", "").toUpperCase()}
           </h1>
         </div>
-        <div className="flex flex-col justify-between gap-y-10 gap-x-5 sm:flex-row sm:flex-wrap sm:justify-center lg:gap-x-20 lg:px-5">
+        <div className="flex flex-col justify-center gap-7 sm:flex-row flex-wrap">
           {/* Edit lg:gap-x from 28 to 20 */}
 
           {products[titleContent].map((value, index) => (

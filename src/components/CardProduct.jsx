@@ -26,7 +26,7 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
   return (
     <>
       <div
-        className="card-product flex flex-col gap-y-4 p-4 custom-shadow bg-gradient-to-r from-darkYellow to-white rounded-xl sm:w-[48%] lg:w-[28%]"
+        className="card-product flex flex-col gap-y-4 p-4 custom-shadow bg-gradient-to-r from-darkYellow to-white rounded-xl w-[300px] md:w-[320px]  "
         style={{ background: styleBgGradient }} // Edit Width Card 03/12/24
       >
         <div className="flex flex-col">
