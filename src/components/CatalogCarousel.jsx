@@ -3,21 +3,24 @@ import Catalog from "./Catalog";
 import { Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-function CatalogCarousel() {
+function CatalogCarousel({ catalogDatas }) {
   return (
-    <div className="">
-      {/* <Swiper
-        slidesPerView={3}
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      > */}
-
-      {/* </Swiper>
-      <div className="myswiper"></div> */}
+    <div className="catalog-container">
+      <div className="title-catalog">
+        <h1 className="md:text-[38px] text-[24px] text-center font-medium mt-9">
+          Ini akan menjadi alasan kelezatan, dengan{" "}
+          <br className="hidden md:block" /> cita rasa unik dan menarik
+        </h1>
+      </div>
+      <div className="catalogs flex gap-[20px] mt-5 ">
+        {catalogDatas.map((catalog, index) => (
+          <Catalog
+            key={index}
+            img={catalog.image}
+            description={catalog.description}
+          />
+        ))}
+      </div>
     </div>
   );
 }
