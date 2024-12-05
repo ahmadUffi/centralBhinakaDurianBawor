@@ -18,7 +18,7 @@ const Product = () => {
           <div className="mt-32 lg:mt-[6%]">
 
             {/* Header screen Mobile */}
-            <div id="header-product" className="custom-shadow mx-6 rounded-2xl overflow-hidden relative sm:hidden">
+            <div id="header-product" className="custom-shadow mx-3 rounded-2xl overflow-hidden relative sm:hidden">
               <div className="">
                 <img src={bgHeaderProduct} className="absolute top-[38%] -z-10 scale-[1.8]" alt="img-header-product" />
               </div>
@@ -55,9 +55,7 @@ const Product = () => {
             <div className="hidden sm:block">
               <img src={ bgHeaderProductLg } className="custom-shadow bg-cover bg-center scale-90 rounded-3xl" alt="" />
             </div>
-
-            <div id="card-product" className="flex flex-col gap-y-10 my-10 mx-6 px-6 pb-7 sm:mx-7 md:mx-9">
-            {/* <div id="card-product" className="my-10 custom-shadow mx-6 px-6 pb-7 rounded-2xl sm:mx-7 md:mx-9"> */}
+            <div id="card-product" className="flex flex-col gap-y-10 my-10 mx-3 px-0 pb-7 sm:mx-7 md:mx-9">
               {
                 Object.keys(product).map((categoryProduct, index) => {
                   return (
@@ -65,9 +63,6 @@ const Product = () => {
                   );
                 })
               }
-              {/* <ContentProduct titleContent="DURIAN"/>
-              <ContentProduct titleContent="BIBIT"/>
-              <ContentProduct titleContent="OLAHAN PRODUK"/> */}
             </div>
           </div>
         </section>

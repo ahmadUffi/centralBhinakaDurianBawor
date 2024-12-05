@@ -23,37 +23,16 @@ function ContentProduct({ titleContent }) {
 
   return (
     <>
-      <div className="flex flex-col py-10 custom-shadow rounded-2xl items-center gap-y-10 w-full">
+      <div className="flex flex-col py-10 px-7 custom-shadow rounded-2xl items-center gap-y-10 w-full">
         <div className={`bg-gradient-to-r ${ bgHeaderColor } w-max px-6 py-2 rounded-xl mt-0`}>
           <h1 className="text-md font-bold">{ titleContent.replace("product", "").toUpperCase() }</h1>
         </div>
-        <div className="flex flex-col justify-between gap-y-10 gap-x-5 sm:flex-row sm:flex-wrap sm:justify-center lg:gap-x-20 lg:px-5">
-          {/* Edit lg:gap-x from 28 to 20 */}
-
+        <div className="flex flex-col justify-between gap-y-10 gap-x-10 sm:flex-row sm:flex-wrap sm:justify-center lg:gap-x-20 lg:px-5">
           { 
             product[titleContent].map((value, index) => (
               <CardProduct key={ index } titleContent={ titleContent } image={ value.image } titleCard={ value.name } desc={ `Nikmati sensasi durian berkualitas tinggi langsung dari kebun!` } />
             )) 
           }
-
-          {/* <CardProduct 
-            titleContent={ titleContent }
-            image={ img_durian } 
-            titleCard="Durian Bawor" 
-            desc="Nikmati sensasi durian berkualitas tinggi langsung dari kebun!" 
-          />
-          <CardProduct 
-            titleContent={ titleContent }
-            image={ img_durian } 
-            titleCard="Durian Bawor" 
-            desc="Nikmati sensasi durian berkualitas tinggi langsung dari kebun!" 
-          />
-          <CardProduct 
-            titleContent={ titleContent }
-            image={ img_durian } 
-            titleCard="Durian Bawor" 
-            desc="Nikmati sensasi durian berkualitas tinggi langsung dari kebun!" 
-          /> */}
         </div>
       </div>
     </>
