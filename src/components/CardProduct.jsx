@@ -7,15 +7,15 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
   let buttonColor;
 
   switch (titleContent) {
-    case "BIBIT":
+    case "productBibit":
         styleBgGradient = "linear-gradient(150deg, #A7BC2E 45%, #FFFFFF 45%)";
         buttonColor = "bg-[#A7BC2E]";
       break;
-    case "DURIAN":
+    case "productDurian":
         styleBgGradient = "linear-gradient(150deg, #FCC52D 45%, #FFFFFF 45%)";
         buttonColor = "bg-darkYellow";
       break;
-    case "OLAHAN PRODUK":
+    case "productOlahan":
         styleBgGradient = "linear-gradient(150deg, #FFE700 45%, #ffffff 45%)";
         buttonColor = "bg-[#FFE700]"
       break;
@@ -25,19 +25,21 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
 
   return (
     <>
+    { console.log(titleContent) }
       <div 
-        className="card-product flex flex-col gap-y-4 p-4 custom-shadow bg-gradient-to-r from-darkYellow to-white rounded-xl sm:w-[48%] lg:w-[23%]" style={{ background: styleBgGradient }}
+        className="card-product flex flex-col gap-y-4 p-4 custom-shadow bg-gradient-to-r from-darkYellow to-white rounded-xl sm:w-[48%] lg:w-[28%]" style={{ background: styleBgGradient }} // Edit Width Card 03/12/24
       >
         <div className="flex flex-col">
           <h2 className="text-xl font-semibold">
-            { titleCard }
+            {/* { titleCard } */}
+            Tes
           </h2>
           <p className={`text-md max-w-[300px]`}>
             { desc }
           </p>
         </div>
         <div className="flex justify-center">
-          <img src={ image } className={`size-[100px] ${titleContent !== "BIBIT" ? "custom-box-shadow" : "custom-box-shadow-green"} rounded-full`} alt="img-card-product" />
+          <img src={ image } className={`size-[100px] ${titleContent !== "productBibit" ? "custom-box-shadow" : "custom-box-shadow-green"} rounded-full`} alt="img-card-product" />
         </div>
         <div className="flex justify-between items-center">
           <div className="flex gap-x-1">
