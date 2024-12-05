@@ -27,7 +27,7 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
     default:
       break;
   }
-
+  console.log(titleContent);
   return (
     <>
     { console.log(titleContent) }
@@ -47,11 +47,9 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
         </div>
         <div className="flex justify-between items-center">
           <div className="flex gap-x-1">
-            {
-              Array.from({ length: numStars }).map((_, index) => (
-                <img src={ star } key={ index } className='size-4' alt="ic-star" />
-              ))
-            }
+            {Array.from({ length: numStars }).map((_, index) => (
+              <img src={star} key={index} className="size-4" alt="ic-star" />
+            ))}
           </div>
           <div className={ styleButton }>
             <a href={`${ wa }6289603014813`} className='text-primary font-semibold' target="_blank">Hubungi</a>
@@ -59,7 +57,7 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default CardProduct
+export default CardProduct;

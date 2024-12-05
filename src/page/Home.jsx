@@ -1,42 +1,31 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Wrapper from "../components/Wrapper";
 import Welcome from "../components/Welcome";
 import Catalog from "../components/Catalog";
-import image1 from "../assets/image/img_mitra_1.png";
-import CardMitra from "../components/CardMitra";
 import Galeri from "../components/Galeri";
 import Komunitas from "../components/Komunitas";
-import CatalogCarousel from "../components/CatalogCarousel";
 import MapEmbed from "../components/MapsTugu";
 import { catalogData } from "../data";
 
+import bgOverlayRight from "../assets/image/bgOverlayRight.png";
+import CatalogCarousel from "../components/CatalogCarousel";
+
 function Home() {
   const demo = [1, 2, 3, 4];
+  const welcome = {
+    bgOverlayRight: bgOverlayRight,
+    name: "Durian Banyumas",
+    description:
+      "Banyumas dikenal sebagai salah satu Penghasil Durian Terbaik di Indonesia, Variatesnya yang unik dan cita rasa yang menggoda membuat durian Banyumas sangat Istimewa",
+  };
 
   return (
     <>
-      <Welcome />
-      <Wrapper>
+      <Welcome {...welcome} />
+      <Wrapper B>
         <div className="fild">
           {/* Catalogs */}
-          <div className="catalog-container">
-            <div className="title-catalog">
-              <h1 className="md:text-[38px] text-[24px] text-center font-medium mt-9">
-                Ini akan menjadi alasan kelezatan, dengan{" "}
-                <br className="hidden md:block" /> cita rasa unik dan menarik
-              </h1>
-            </div>
-            <div className="catalogs flex gap-[20px] mt-5 ">
-              {catalogData.map((catalog, index) => (
-                <Catalog
-                  key={index}
-                  img={catalog.image}
-                  description={catalog.description}
-                />
-              ))}
-            </div>
-          </div>
+          <CatalogCarousel catalogDatas={catalogData} />
           {/* akhir catalog */}
           {/* Awal Komunitas */}
           <div className="">
@@ -57,7 +46,11 @@ function Home() {
           {/* akhir galeri */}
 
           {/* awal maps */}
-          <MapEmbed />
+          <MapEmbed
+            src={
+              "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d939.810488949508!2d109.31416627804167!3d-7.5827594942196805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e654518238ba48b%3A0xe773e57e1e89a5b!2sTUGU%20DUREN%20Alasmalang!5e1!3m2!1sid!2sid!4v1732981690777!5m2!1sid!2sid"
+            }
+          />
         </div>
       </Wrapper>
 

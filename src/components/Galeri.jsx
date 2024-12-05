@@ -62,7 +62,6 @@ const Galeri = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  console.log(swiperKey);
   return (
     <div className="slider-container">
       <Swiper
