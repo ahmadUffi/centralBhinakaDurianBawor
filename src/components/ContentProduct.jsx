@@ -21,7 +21,7 @@ function ContentProduct({ titleContent, products }) {
   console.log(products);
   return (
     <>
-      <div className="flex flex-col py-10 custom-shadow rounded-2xl items-center gap-y-10 w-full mt-7">
+      <div className="flex flex-col py-10 custom-shadow rounded-2xl items-center gap-y-10 w-full mt-7 px-7">
         <div
           className={`bg-gradient-to-r ${bgHeaderColor} w-max px-6 py-2 rounded-xl mt-0`}
         >
