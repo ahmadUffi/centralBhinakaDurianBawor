@@ -1,6 +1,4 @@
 // buat data
-let drivePath = "https://drive.google.com/thumbnail?id=";
-let size = "&sz=w1000";
 let wa = "https://wa.me/";
 let fb = "https://www.facebook.com/";
 let ig = "https://www.instagram.com/";
@@ -66,6 +64,12 @@ import tokoKliwon from "./assets/image/mitra/fotoToko/tokoKliwon.JPG";
 import tokoMbah from "./assets/image/mitra/fotoToko/tokoMbah.JPG";
 import tokoWaluyo from "./assets/image/mitra/fotoToko/tokoWaluyo.JPG";
 
+// Foto mitra
+import budi from "./assets/image/mitra/fotoMitra/budi.png";
+import edy from "./assets/image/mitra/fotoMitra/edy.png";
+import sarno from "./assets/image/mitra/fotoMitra/sarno.png";
+import sugeng from "./assets/image/mitra/fotoMitra/sugeng.png";
+
 const mitra = [
   {
     id: 1,
@@ -73,7 +77,7 @@ const mitra = [
     name: "Sarno",
     description:
       "Saya Sarno, pemilik Bhinneka Bawor, menawarkan berbagai jenis durian premium yang terkenal akan kualitas dan rasanya. Dengan pengalaman bertahun-tahun, saya berkomitmen untuk menyediakan durian terbaik bagi pecinta durian di seluruh Indonesia.",
-    image: `${drivePath}1DEgYofaiTbqOsKCAylLt3NOrc7X6L1L9${size}`,
+    image: sarno,
     fotoToko: tokoSarno,
     kataPromosi:
       "Rasakan sensasi durian premium hanya di Bhinneka Bawor, kenikmatan tiada tanding!",
@@ -125,7 +129,7 @@ const mitra = [
     name: "Edi Waluyo",
     description:
       "Saya, Edi Waluyo, adalah seorang petani durian yang sudah mengelola Kebun Duren Mandiri selama lebih dari dua dekade. Ketertarikan saya pada durian sudah muncul sejak masa muda, dan selama bertahun-tahun saya mendalami teknik budidaya durian, memilih varietas unggulan, serta mempraktikkan metode perawatan yang alami dan berkelanjutan.",
-    image: `${drivePath}1BK5Eo_L9KPQu4bSwl-I4pH4Ly90xFOMI${size}`,
+    image: edy,
     fotoToko: tokoWaluyo,
     kataPromosi:
       "Nikmati durian terbaik dari Duren Mandiri, alami dan berkelanjutan!",
@@ -180,7 +184,7 @@ const mitra = [
     name: "Budi Setiawan",
     description:
       "Saya, Budi Setiawan, pemilik Mbah Duren, dengan bangga menghadirkan berbagai jenis durian, termasuk varietas lokal unggulan dan favorit impor. Pengalaman saya bertahun-tahun menjamin setiap durian yang dijual memiliki rasa dan kualitas terbaik.",
-    image: `${drivePath}19wwz6_u8oCQgfgUCQjUiHk22NpxA8ol2${size}`,
+    image: budi,
     fotoToko: tokoMbah,
     kataPromosi:
       "Jangan lewatkan kelezatan sejati di Mbah Duren, pusatnya durian berkualitas!",
@@ -223,7 +227,7 @@ const mitra = [
     name: "Sugeng",
     description:
       "Saya, Sugeng, pendiri Toko Duren Kliwon, menyediakan berbagai pilihan durian favorit dengan fasilitas lengkap untuk kenyamanan pelanggan. Dengan pelayanan terbaik, kami siap memanjakan pecinta durian dari berbagai penjuru.",
-    image: `${drivePath}1GxUKJxZKG7XNw-ihA8_OWJZWklhB5QNf${size}`,
+    image: sugeng,
     fotoToko: tokoKliwon,
     kataPromosi:
       "Puaskan selera Anda dengan durian istimewa dari Toko Duren Kliwon!",
@@ -243,8 +247,6 @@ const mitra = [
       {
         id: 2,
         name: "Kamar Mandi",
-        description:
-          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
         description:
           "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
       },
