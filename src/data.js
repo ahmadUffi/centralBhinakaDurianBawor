@@ -53,17 +53,20 @@ const mitra = [
       {
         id: 1,
         name: "Saung",
-        description: "Tempat bersantai menikmati durian",
+        description:
+          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk.",
       },
       {
         id: 2,
         name: "Musala",
-        description: "Fasilitas ibadah",
+        description:
+          "Fasilitas ibadah yang bersih dan nyaman, dilengkapi dengan perlengkapan sholat.",
       },
       {
         id: 3,
         name: "Toilet",
-        description: "Fasilitas toilet umum",
+        description:
+          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung.",
       },
     ],
     productsDuren: [
@@ -104,17 +107,20 @@ const mitra = [
       {
         id: 1,
         name: "Saung Durian",
-        description: "Tempat santai untuk menikmati durian",
+        description:
+          "Tempat santai untuk menikmati durian dengan suasana pedesaan yang tenang.",
       },
       {
         id: 2,
         name: "Musala",
-        description: "Musala untuk beribadah",
+        description:
+          "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman.",
       },
       {
         id: 3,
         name: "Toilet",
-        description: "Toilet umum",
+        description:
+          "Toilet umum yang bersih dan terawat, tersedia untuk pengunjung.",
       },
     ],
     productsDuren: [
@@ -154,7 +160,8 @@ const mitra = [
       {
         id: 1,
         name: "Tempat Duduk",
-        description: "Area duduk nyaman untuk menikmati durian",
+        description:
+          "Area duduk nyaman untuk menikmati durian dengan keluarga dan teman.",
       },
     ],
     productsDuren: [
@@ -198,17 +205,19 @@ const mitra = [
       {
         id: 1,
         name: "Musala",
-        description: "Fasilitas ibadah",
+        description:
+          "Fasilitas ibadah yang nyaman dan bersih, dilengkapi dengan perlengkapan sholat.",
       },
       {
         id: 2,
         name: "Kamar Mandi",
-        description: "Kamar mandi yang bersih dan nyaman",
+        description:
+          "Kamar mandi yang bersih dan nyaman, tersedia untuk pengunjung.",
       },
       {
         id: 3,
         name: "Tempat Istirahat",
-        description: "Area nyaman untuk beristirahat",
+        description: "Area nyaman untuk beristirahat setelah menikmati durian.",
       },
     ],
     productsDuren: [
