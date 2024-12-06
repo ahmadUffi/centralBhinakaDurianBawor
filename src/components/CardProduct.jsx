@@ -12,7 +12,8 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
     case "productsBibit":
       styleBgGradient = "linear-gradient(150deg, #A7BC2E 45%, #FFFFFF 45%)";
       styleButton = "py-2 px-3 rounded-lg bg-[#A7BC2E]";
-      styleImage = "custom-box-shadow-green size-[120px] bg-[#F9F9F6FF] rounded-full sm:size-[130px]";
+      styleImage =
+        "custom-box-shadow-green size-[120px] bg-[#F9F9F6FF] rounded-full sm:size-[130px]";
       break;
     case "productsDurian":
       styleBgGradient = "linear-gradient(150deg, #FCC52D 45%, #FFFFFF 45%)";
@@ -22,7 +23,8 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
     case "productsOlahan":
       styleBgGradient = "linear-gradient(150deg, #FFE700 45%, #ffffff 45%)";
       styleButton = "py-2 px-3 rounded-lg bg-[#FFE700]";
-      styleImage = "custom-box-shadow-lightYellow size-[120px] bg-[#F9F9F6FF] rounded-full";
+      styleImage =
+        "custom-box-shadow-lightYellow size-[120px] bg-[#F9F9F6FF] rounded-full";
       break;
     default:
       break;
@@ -48,7 +50,11 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
             ))}
           </div>
           <div className={styleButton}>
-            <a href={`${wa}6289603014813`} className="text-primary font-semibold" target="_blank">
+            <a
+              href={`${wa}6289603014813`}
+              className="text-primary font-semibold"
+              target="_blank"
+            >
               Hubungi
             </a>
           </div>

@@ -14,7 +14,7 @@ function CardMitra({ image, title, desc, isOdd, link = false }) {
             <div className={classImage}>
               <img
                 src={image}
-                className="md:w-[400px] w-[250px]"
+                className="md:w-[400px] w-[300px]"
                 alt="Mitra_1"
               />
             </div>
