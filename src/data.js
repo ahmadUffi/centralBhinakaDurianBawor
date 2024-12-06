@@ -502,4 +502,4 @@ const catalogData = [
   },
 ];
 
-export { mitra, product, mitraPage, catalogData };
+export { mitra, product, mitraPage, catalogData, wa };
