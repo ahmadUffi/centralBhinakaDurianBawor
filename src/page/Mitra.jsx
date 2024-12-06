@@ -5,13 +5,12 @@ import CardMitra from "../components/CardMitra";
 import { mitra } from "../data";
 
 const Mitra = () => {
-  const numbers = [1, 2, 3, 4];
-
   return (
     <>
       <Wrapper>
         <section id="mitra" className="mt-20">
           <div className="mt-24 mb-20">
+<<<<<<< HEAD
             {
               mitra.map((value, index) => {
                 const isOdd = index % 2 == 1;
@@ -22,6 +21,18 @@ const Mitra = () => {
                   title={ value.toko }
                   desc={ value.description }
                   isOdd={ isOdd }
+=======
+            {mitra.map((m, index) => {
+              const isOdd = m.id % 2 === 1;
+              return (
+                <CardMitra
+                  key={m.id}
+                  image={m.image}
+                  title={m.toko}
+                  desc={m.description}
+                  isOdd={isOdd}
+                  link={`${m.id}`}
+>>>>>>> 763f65026732448fda4f2bbf508df6d64022c97a
                 />
               })
 

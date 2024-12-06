@@ -77,10 +77,7 @@ const Product = () => {
               />
             </div>
 
-            <div
-              id="card-product"
-              className="flex flex-col gap-y-10 my-10 mx-6 px-6 pb-7 sm:mx-7 md:mx-9"
-            >
+            <div id="card-product" className="flex flex-col">
               {/* <div id="card-product" className="my-10 custom-shadow mx-6 px-6 pb-7 rounded-2xl sm:mx-7 md:mx-9"> */}
               {Object.keys(product).map((categoryProduct, index) => {
                 return (
