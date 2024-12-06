@@ -27,6 +27,45 @@ import Dodol from "./assets/image/durian/olahan/Dodol.png";
 import Juice from "./assets/image/durian/olahan/Juice.png";
 import Keripik from "./assets/image/durian/olahan/Keripik.png";
 
+// Gallery
+import Sarno1 from "./assets/image/mitra/gallery/sarno/gallery_sarno_1.JPG";
+import Sarno2 from "./assets/image/mitra/gallery/sarno/gallery_sarno_2.JPG";
+import Sarno3 from "./assets/image/mitra/gallery/sarno/gallery_sarno_3.JPG";
+import Sarno4 from "./assets/image/mitra/gallery/sarno/gallery_sarno_4.JPG";
+import Sarno5 from "./assets/image/mitra/gallery/sarno/gallery_sarno_5.JPG";
+import Sarno6 from "./assets/image/mitra/gallery/sarno/gallery_sarno_6.JPG";
+import Sarno7 from "./assets/image/mitra/gallery/sarno/gallery_sarno_7.JPG";
+
+import Waluyo1 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_7.JPG";
+import Waluyo2 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_2.JPG";
+import Waluyo3 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_3.JPG";
+import Waluyo4 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_4.JPG";
+import Waluyo5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_5.JPG";
+import Waluyo6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_6.JPG";
+import Waluyo7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_7.JPG";
+
+import mbah1 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_1.JPG";
+import mbah2 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_2.JPG";
+import mbah3 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_3.JPG";
+import mbah4 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_4.JPG";
+import mbah5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_5.JPG";
+import mbah6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_6.JPG";
+import mbah7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_7.JPG";
+
+import kliwon1 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_1.JPG";
+import kliwon2 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_2.JPG";
+import kliwon3 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_3.JPG";
+import kliwon4 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_4.JPG";
+import kliwon5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_5.JPG";
+import kliwon6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_6.JPG";
+import kliwon7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_7.JPG";
+
+// Foto TOKO
+import tokoSarno from "./assets/image/mitra/fotoToko/tokoSarno.jpg";
+import tokoKliwon from "./assets/image/mitra/fotoToko/tokoKliwon.JPG";
+import tokoMbah from "./assets/image/mitra/fotoToko/tokoMbah.JPG";
+import tokoWaluyo from "./assets/image/mitra/fotoToko/tokoWaluyo.JPG";
+
 const mitra = [
   {
     id: 1,
@@ -35,6 +74,7 @@ const mitra = [
     description:
       "Saya Sarno, pemilik Bhinneka Bawor, menawarkan berbagai jenis durian premium yang terkenal akan kualitas dan rasanya. Dengan pengalaman bertahun-tahun, saya berkomitmen untuk menyediakan durian terbaik bagi pecinta durian di seluruh Indonesia.",
     image: `${drivePath}1DEgYofaiTbqOsKCAylLt3NOrc7X6L1L9${size}`,
+    fotoToko: tokoSarno,
     kataPromosi:
       "Rasakan sensasi durian premium hanya di Bhinneka Bawor, kenikmatan tiada tanding!",
     linkMap: "https://maps.app.goo.gl/so9GKWVz64sWRsmZ8",
@@ -42,31 +82,25 @@ const mitra = [
     linkWhatsapp: `${wa}6281234567890`,
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}`,
-    galeri: [
-      `${drivePath}10Z_ATQtaF_LIELPLxWWfIiaObVrcWV-3${size}`,
-      `${drivePath}1lleVGCQdsav-wSvpEl9QUS_YqTMTtnol${size}`,
-      `${drivePath}13JfruwgYs32zkWp0_NCURVMeMbm8JujV${size}`,
-      `${drivePath}1dTekFV7whc-pMgc73Lp-MmsSSvCm03RR${size}`,
-      `${drivePath}1zHF8POZXQO9Yz8WV_9UFr4b3QnTQPL99${size}`,
-    ],
+    galeri: [Sarno1, Sarno2, Sarno3, Sarno4, Sarno5, Sarno6, Sarno7],
     fasilitas: [
       {
         id: 1,
         name: "Saung",
         description:
-          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk.",
+          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
       },
       {
         id: 2,
         name: "Musala",
         description:
-          "Fasilitas ibadah yang bersih dan nyaman, dilengkapi dengan perlengkapan sholat.",
+          "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
       },
       {
         id: 3,
         name: "Toilet",
         description:
-          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung.",
+          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
       },
     ],
     productsDuren: [
@@ -89,38 +123,36 @@ const mitra = [
     description:
       "Saya, Edi Waluyo, adalah seorang petani durian yang sudah mengelola Kebun Duren Mandiri selama lebih dari dua dekade. Ketertarikan saya pada durian sudah muncul sejak masa muda, dan selama bertahun-tahun saya mendalami teknik budidaya durian, memilih varietas unggulan, serta mempraktikkan metode perawatan yang alami dan berkelanjutan.",
     image: `${drivePath}1BK5Eo_L9KPQu4bSwl-I4pH4Ly90xFOMI${size}`,
+    fotoToko: tokoWaluyo,
     kataPromosi:
       "Nikmati durian terbaik dari Duren Mandiri, alami dan berkelanjutan!",
     linkMap: "https://maps.app.goo.gl/TSCrCNTaLqBabrL59",
     alamat: "Desa Pageralam",
-    linkWhatsapp: `${wa}`,
+    linkWhatsapp: `${wa}6281226779766`,
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}`,
-    galeri: [
-      `${drivePath}11FMBA12udoeg0kOlw0Fmxe6rxAvpn4dA${size}`,
-      `${drivePath}1ss5xFxhF374SYYYVzpyGD_wV9CXiO1rB${size}`,
-      `${drivePath}1ZO6Itz7Feg8ANQC1vxgccO7wXlQFa29C${size}`,
-      `${drivePath}1UsEridFUbWyQNlLDAK7EAobwq21TfP53${size}`,
-      `${drivePath}1MbQiloIa4A8Ngp_dpmSTcJzDIpRSO06l${size}`,
-    ],
+    galeri: [Waluyo1, Waluyo2, Waluyo3, Waluyo4, Waluyo5, Waluyo6, Waluyo7],
     fasilitas: [
       {
         id: 1,
         name: "Saung Durian",
         description:
-          "Tempat santai untuk menikmati durian dengan suasana pedesaan yang tenang.",
+          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
+        image: "",
       },
       {
         id: 2,
         name: "Musala",
         description:
-          "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman.",
+          "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
+        image: "",
       },
       {
         id: 3,
         name: "Toilet",
         description:
-          "Toilet umum yang bersih dan terawat, tersedia untuk pengunjung.",
+          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
+        image: "",
       },
     ],
     productsDuren: [
@@ -143,6 +175,7 @@ const mitra = [
     description:
       "Saya, Budi Setiawan, pemilik Mbah Duren, dengan bangga menghadirkan berbagai jenis durian, termasuk varietas lokal unggulan dan favorit impor. Pengalaman saya bertahun-tahun menjamin setiap durian yang dijual memiliki rasa dan kualitas terbaik.",
     image: `${drivePath}19wwz6_u8oCQgfgUCQjUiHk22NpxA8ol2${size}`,
+    fotoToko: tokoMbah,
     kataPromosi:
       "Jangan lewatkan kelezatan sejati di Mbah Duren, pusatnya durian berkualitas!",
     linkMap: "https://g.co/kgs/cHwC7V3",
@@ -150,18 +183,13 @@ const mitra = [
     linkWhatsapp: `${wa}`,
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}`,
-    galeri: [
-      `${drivePath}118griv5Thhby96t3JIslzH5BWOc5_c5U${size}`,
-      `${drivePath}1OtHxR_lCr7CCqgE-R3jFb2f4HO9iS0N6${size}`,
-      `${drivePath}1UZzD5pka_xdOQWyVZZtzY5q1wZ7OyiFd${size}`,
-      `${drivePath}1qgji3bAe9iYCPlcP2lTLroEwQMNJb02x${size}`,
-    ],
+    galeri: [mbah1, mbah2, mbah3, mbah4, mbah5, mbah6, mbah7],
     fasilitas: [
       {
         id: 1,
         name: "Tempat Duduk",
         description:
-          "Area duduk nyaman untuk menikmati durian dengan keluarga dan teman.",
+          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
       },
     ],
     productsDuren: [
@@ -186,38 +214,33 @@ const mitra = [
     description:
       "Saya, Sugeng, pendiri Toko Duren Kliwon, menyediakan berbagai pilihan durian favorit dengan fasilitas lengkap untuk kenyamanan pelanggan. Dengan pelayanan terbaik, kami siap memanjakan pecinta durian dari berbagai penjuru.",
     image: `${drivePath}1GxUKJxZKG7XNw-ihA8_OWJZWklhB5QNf${size}`,
+    fotoToko: tokoKliwon,
     kataPromosi:
       "Puaskan selera Anda dengan durian istimewa dari Toko Duren Kliwon!",
     linkMap: "https://maps.app.goo.gl/58HbtBhDEqU3vryi6",
     alamat: "Desa Karangsalam",
-    linkWhatsapp: `${wa}`,
+    linkWhatsapp: `${wa}62882000311731`,
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}DurenPakKliwon`,
-    galeri: [
-      `${drivePath}1oLQNNvOiwHmg5tiKYEPFmMDv6TbF3NR4${size}`,
-      `${drivePath}1w0eypdsoUY5nHeqsKm1t6riYxvfgtQ7W${size}`,
-      `${drivePath}1c6CEwBZ9jAi5VeiukYeK92wX940ZuG72${size}`,
-      `${drivePath}1DpL6aVdPhb4m4yKfbxgRcJlN2CgZ3VPc${size}`,
-      `${drivePath}14ZQT7CUDUPDnWlwrVcGxDA3-yOZaR3C4${size}`,
-      `${drivePath}1_J_yUhlaa_qlrIp_EzqM3NO_AySUrkC3${size}`,
-    ],
+    galeri: [kliwon1, kliwon2, kliwon3, kliwon4, kliwon5, kliwon6, kliwon7],
     fasilitas: [
       {
         id: 1,
         name: "Musala",
         description:
-          "Fasilitas ibadah yang nyaman dan bersih, dilengkapi dengan perlengkapan sholat.",
+          "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
       },
       {
         id: 2,
         name: "Kamar Mandi",
         description:
-          "Kamar mandi yang bersih dan nyaman, tersedia untuk pengunjung.",
+          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
       },
       {
         id: 3,
         name: "Tempat Istirahat",
-        description: "Area nyaman untuk beristirahat setelah menikmati durian.",
+        description:
+          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
       },
     ],
     productsDuren: [
