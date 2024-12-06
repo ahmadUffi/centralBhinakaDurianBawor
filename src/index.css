@@ -31,3 +31,9 @@ body {
   -webkit-box-shadow: 7px -3px 0px 0px rgba(167, 188, 46, 1);
   -moz-box-shadow: 7px -3px 0px 0px rgba(167, 188, 46, 1);
 }
+
+.custom-box-shadow-lightYellow {
+  box-shadow: 7px 3px 0px 1px rgba(255, 231, 0, 1);
+  -webkit-box-shadow: 7px 3px 0px 1px rgba(255, 231, 0, 1);
+  -moz-box-shadow: 7px 3px 0px 1px rgba(255,  231,  0,  1);
+}

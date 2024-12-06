@@ -4,6 +4,14 @@ import ScrollableCard from "../components/CatalogCarousel";
 import image1 from "../assets/image/img_mitra_1.png";
 import image2 from "../assets/image/img_mitra_1.png";
 import Wrapper from "../components/Wrapper";
+import { mitra } from "../data";
+import { useParams } from "react-router-dom";
+import Welcome from "../components/Welcome";
+import CatalogCarousel from "../components/CatalogCarousel";
+import ContentProduct from "../components/ContentProduct";
+import Galeri from "../components/Galeri";
+import CardMitra from "../components/CardMitra";
+import MapEmbed from "../components/MapsTugu";
 
 const cardsData = [
   { image: image1, description: "Durian Delights" },
@@ -12,58 +20,68 @@ const cardsData = [
 ];
 
 const MitraPage = () => {
+  const { id } = useParams();
+  const target = mitra.find((target) => target.id == id);
+  console.log(target);
   return (
-    <Wrapper>
-      <div
-        className="flex flex-col justify-center items-center min-h-screen bg-cover bg-center gap-16 pb-28 w-full"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
-        <div className="flex flex-col justify-center text-center gap-16 border-solid border-pink-400 pt-56">
-          <h1 className="text-black text-5xl uppercase font-bold">
-            Selamat datang di
-            <br /> Pengalaman Durian Bawor
-          </h1>
-          <p className="text-xl max-w-[40rem]">
-            Temukan Kelezatan dan Kualitas Terbaik dari Durian dengan Cita Rasa
-            Unik dan Menarik
-          </p>
+    <div className="mitraPgae">
+      <Welcome
+        bgOverlayRight={target.image}
+        name={target.toko}
+        description={target.kataPromosi}
+      />
+      <Wrapper>
+        <div className="w-full field">
+          <CatalogCarousel catalogDatas={target.listProducts} />
         </div>
-        <div className="flex items-center justify-center w-[968px] h-[447px] bg-darkYellow">
-          <div className="bg-white rounded-lg shadow-lg p-8 flex flex-col md:flex-row items-center w-[773px] h-[436px]">
-            <div className="flex-1 text-center md:text-left">
-              <h1 className="text-3xl font-bold mb-4 text-center">
-                DURIAN BAWOR BANYUMAS
-              </h1>
-              <p className="text-gray-700 text-center">
-                Kami adalah komunitas yang berfokus pada keberagaman dan
-                pelestarian lingkungan, dengan semangat menciptakan perubahan
-                positif bagi lingkungan dan masyarakat sekitar.
-              </p>
-            </div>
-            <div className="flex-1 mt-6 md:mt-0">
-              <img
-                src={durian}
-                alt="Durian"
-                className="w-full max-w-xs mx-auto"
+        {Object.keys(target.product).map((categoryProduct, index) => {
+          return (
+            <ContentProduct
+              key={index}
+              titleContent={categoryProduct}
+              products={target.product}
+            />
+          );
+        })}
+        {/* galeri */}
+        <div className="galeri-container">
+          <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold mb-4">
+            Galeri
+          </h1>
+          <div className="">
+            <Galeri />
+          </div>
+        </div>
+        {/* akhir galeri */}
+        {/* Fasilitas */}
+        <div className="fasilitas-container">
+          <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold mb-4">
+            Fasilitas
+          </h1>
+          <div className="">
+            {target.fasilitas.map((fasilitas, index) => (
+              <CardMitra
+                key={index}
+                title={fasilitas.name}
+                isOdd={index % 2 == 1}
+                desc={fasilitas.description}
+                image={image1}
               />
-            </div>
+            ))}
           </div>
         </div>
-        <div className="flex flex-col gap-10 justify-between items-center text-center">
-          <h1 className="font-semibold text-xl max-w-xl ">
-            Lebih dari 1.000 orang telah merasakan kenikmatannya, menjadikan
-            favorit baru yang menggugah selera.
+
+        {/* fasilitas */}
+        {/* maps */}
+        <div className="maps-container mb-8">
+          <h1 className="md:text-[38px] text-[24px] text-center mt-9 uppercase font-bold mb-4">
+            Lokasi
           </h1>
-
-          <p>catalog Durian Bawor</p>
-
-          {/* Banner */}
-          <div className="w-full px-4 py-8">
-            <ScrollableCard cards={cardsData} />
-          </div>
+          <MapEmbed src={target.linkMap} />
         </div>
-      </div>
-    </Wrapper>
+        {/* akhir maps */}
+      </Wrapper>
+    </div>
   );
 };
 

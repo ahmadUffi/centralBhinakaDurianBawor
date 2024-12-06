@@ -3,7 +3,7 @@ import { FaWhatsapp, FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="h-full w-full text-white bg-[#0A090D] gap-10 divide-y divide-gray-600 border-t-2 border-gray-500">
-      <div className="h-full">
+      {/* <div className="h-full">
         <div className="flex flex-col items-center justify-center space-y-4 py-8">
           <div className="flex space-x-6">
             <a href="https://wa.me" target="_blank" rel="noopener noreferrer">
@@ -52,7 +52,7 @@ const Footer = () => {
             </a>
           </nav>
         </div>
-      </div>
+      </div> */}
 
       <div className="w-full text-center pt-5 pb-2 inter">
         <span className="text-sm">
