@@ -17,8 +17,7 @@ function ContentProduct({ titleContent, products }) {
     default:
       break;
   }
-  // const BgHeaderColor = titleContent === "BIBIT" ? "bg-[#A7BC2E]" : "bg-darkYellow"
-  console.log(products);
+
   return (
     <>
       <div className="flex flex-col py-10 custom-shadow rounded-2xl items-center gap-y-10 mt-7 px-7 mb-5 ">
