@@ -42,21 +42,21 @@ import Waluyo5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_5.JPG
 import Waluyo6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_6.JPG";
 import Waluyo7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_7.JPG";
 
-import mbah1 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_1.JPG";
-import mbah2 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_2.JPG";
-import mbah3 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_3.JPG";
-import mbah4 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_4.JPG";
-import mbah5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_5.JPG";
-import mbah6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_6.JPG";
-import mbah7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_7.JPG";
+import mbah1 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_1.JPG";
+import mbah2 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_2.JPG";
+import mbah3 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_3.JPG";
+import mbah4 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_4.JPG";
+import mbah5 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_5.JPG";
+import mbah6 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_6.JPG";
+import mbah7 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_7.JPG";
 
-import kliwon1 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_1.JPG";
-import kliwon2 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_2.JPG";
-import kliwon3 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_3.JPG";
-import kliwon4 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_4.JPG";
-import kliwon5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_5.JPG";
-import kliwon6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_6.JPG";
-import kliwon7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_7.JPG";
+import kliwon1 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_1.JPG";
+import kliwon2 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_2.JPG";
+import kliwon3 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_3.JPG";
+import kliwon4 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_4.JPG";
+import kliwon5 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_5.JPG";
+import kliwon6 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_6.JPG";
+import kliwon7 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_7.JPG";
 
 // Foto TOKO
 import tokoSarno from "./assets/image/mitra/fotoToko/tokoSarno.jpg";
