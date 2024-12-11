@@ -40,7 +40,7 @@ const MitraPage = () => {
               key={index}
               titleContent={categoryProduct}
               products={target.product}
-              whatsapp={ target.linkWhatsapp }
+              wa={ target.linkWhatsapp }
             />
           );
         })}
