@@ -73,13 +73,29 @@ import galeri1 from "./assets/image/galeriHome/1.JPG";
 import galeri2 from "./assets/image/galeriHome/2.JPG";
 import galeri4 from "./assets/image/galeriHome/4.JPG";
 import galeri5 from "./assets/image/galeriHome/5.JPG";
-import galeri6 from "./assets/image/galeriHome/6.JPG";
-import galeri7 from "./assets/image/galeriHome/7.JPG";
-import galeri8 from "./assets/image/galeriHome/8.JPG";
+import galeri6 from "./assets/image/galeriHome/6.jpg";
+import galeri7 from "./assets/image/galeriHome/7.jpg";
+import galeri8 from "./assets/image/galeriHome/8.jpg";
 import galeri9 from "./assets/image/galeriHome/9.JPG";
 import galeri10 from "./assets/image/galeriHome/10.JPG";
 import galeri11 from "./assets/image/galeriHome/11.JPG";
 import galeri12 from "./assets/image/galeriHome/12.JPG";
+
+// Foto fasilitas [Sarno]
+import SarnoSaung from "./assets/image/mitra/gallery/sarno/fasilitas/saung.JPG";
+import SarnoKamarMandi from "./assets/image/mitra/gallery/sarno/fasilitas/kamarMandi.jpg";
+import SarnoMusola from "./assets/image/mitra/gallery/sarno/fasilitas/musola.jpg";
+
+// Foto fasilitas [Waluyo]
+import WaluyoSaung from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/saung.JPG";
+import WaluyoMusola from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/musola.JPG";
+
+// Foto fasilitas [Mbah Duren]
+import MbahTempatDuduk from "./assets/image/mitra/gallery/mbahDuren/fasilitas/tempatDuduk.JPG";
+import MbahTempatParkir from "./assets/image/mitra/gallery/mbahDuren/fasilitas/tempatParkir.JPG";
+
+// Foto fasilitas [Kliwon]
+import KliwonSaung from "./assets/image/mitra/gallery/kliwon/fasilitas/saung.JPG";
 
 const mitra = [
   {
@@ -126,18 +142,21 @@ const mitra = [
       {
         id: 1,
         name: "Saung",
+        image: SarnoSaung,
         description:
           "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
       },
       {
         id: 2,
         name: "Musala",
+        image: SarnoMusola,
         description:
           "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
       },
       {
         id: 3,
         name: "Toilet",
+        image: SarnoKamarMandi,
         description:
           "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
       },
@@ -230,34 +249,20 @@ const mitra = [
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
       },
     ],
-    // galeri: [
-    //   `${drivePath}11FMBA12udoeg0kOlw0Fmxe6rxAvpn4dA${size}`,
-    //   `${drivePath}1ss5xFxhF374SYYYVzpyGD_wV9CXiO1rB${size}`,
-    //   `${drivePath}1ZO6Itz7Feg8ANQC1vxgccO7wXlQFa29C${size}`,
-    //   `${drivePath}1UsEridFUbWyQNlLDAK7EAobwq21TfP53${size}`,
-    //   `${drivePath}1MbQiloIa4A8Ngp_dpmSTcJzDIpRSO06l${size}`,
-    // ],
     fasilitas: [
       {
         id: 1,
         name: "Saung Durian",
+        image: WaluyoSaung,
         description:
           "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
-        image: "",
       },
       {
         id: 2,
         name: "Musala",
+        image: WaluyoMusola,
         description:
           "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
-        image: "",
-      },
-      {
-        id: 3,
-        name: "Toilet",
-        description:
-          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
-        image: "",
       },
     ],
     product: {
@@ -352,6 +357,14 @@ const mitra = [
       {
         id: 1,
         name: "Tempat Duduk",
+        image: MbahTempatDuduk,
+        description:
+          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
+      },
+      {
+        id: 2,
+        name: "Tempat Parkir",
+        image: MbahTempatParkir,
         description:
           "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
       },
@@ -460,20 +473,9 @@ const mitra = [
       {
         id: 1,
         name: "Musala",
+        image: KliwonSaung,
         description:
           "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
-      },
-      {
-        id: 2,
-        name: "Kamar Mandi",
-        description:
-          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
-      },
-      {
-        id: 3,
-        name: "Tempat Istirahat",
-        description:
-          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
       },
     ],
     product: {
