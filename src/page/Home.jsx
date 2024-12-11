@@ -1,11 +1,10 @@
 import React from "react";
 import Wrapper from "../components/Wrapper";
 import Welcome from "../components/Welcome";
-import Catalog from "../components/Catalog";
 import Galeri from "../components/Galeri";
 import Komunitas from "../components/Komunitas";
 import MapEmbed from "../components/MapsTugu";
-import { catalogData } from "../data";
+import { catalogData, galeriHome } from "../data";
 
 import bgOverlayRight from "../assets/image/bgOverlayRight.png";
 import CatalogCarousel from "../components/CatalogCarousel";
@@ -40,7 +39,7 @@ function Home() {
               Galeri
             </h1>
             <div className="">
-              <Galeri />
+              <Galeri datas={galeriHome} />
             </div>
           </div>
           {/* akhir galeri */}

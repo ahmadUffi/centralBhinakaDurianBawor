@@ -17,10 +17,7 @@ const Product = () => {
         <section id="product">
           <div className="mt-32 lg:mt-[6%]">
             {/* Header screen Mobile */}
-            <div
-              id="header-product"
-              className="custom-shadow mx-6 rounded-2xl overflow-hidden relative sm:hidden"
-            >
+            <div id="header-product" className="custom-shadow mx-3 rounded-2xl overflow-hidden relative sm:hidden">
               <div className="">
                 <img
                   src={bgHeaderProduct}

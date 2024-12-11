@@ -15,14 +15,14 @@ const Mitra = () => {
               return (
                 <CardMitra
                   key={m.id}
-                  image={m.image}
+                  image={m.fotoToko}
                   title={m.toko}
                   desc={m.description}
                   isOdd={isOdd}
                   link={`${m.id}`}
                 />
-              );
-            })}
+            )})
+            }
           </div>
         </section>
       </Wrapper>

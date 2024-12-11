@@ -6,11 +6,13 @@ import Product from "./page/Product";
 import MitraPage from "./page/MitraPage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="mitra/" element={<Mitra />} />
