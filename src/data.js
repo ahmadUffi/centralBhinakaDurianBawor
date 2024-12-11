@@ -249,13 +249,6 @@ const mitra = [
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
       },
     ],
-    // galeri: [
-    //   `${drivePath}11FMBA12udoeg0kOlw0Fmxe6rxAvpn4dA${size}`,
-    //   `${drivePath}1ss5xFxhF374SYYYVzpyGD_wV9CXiO1rB${size}`,
-    //   `${drivePath}1ZO6Itz7Feg8ANQC1vxgccO7wXlQFa29C${size}`,
-    //   `${drivePath}1UsEridFUbWyQNlLDAK7EAobwq21TfP53${size}`,
-    //   `${drivePath}1MbQiloIa4A8Ngp_dpmSTcJzDIpRSO06l${size}`,
-    // ],
     fasilitas: [
       {
         id: 1,
@@ -480,21 +473,9 @@ const mitra = [
       {
         id: 1,
         name: "Musala",
-        description:
-          "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
-      },
-      {
-        id: 2,
-        name: "Kamar Mandi",
-        description:
-          "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
-      },
-      {
-        id: 3,
-        name: "Tempat Istirahat",
         image: KliwonSaung,
         description:
-          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
+          "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
       },
     ],
     product: {
