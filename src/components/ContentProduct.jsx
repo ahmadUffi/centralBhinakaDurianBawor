@@ -1,7 +1,7 @@
 import React from "react";
 import CardProduct from "./CardProduct";
 
-function ContentProduct({ titleContent, products }) {
+function ContentProduct({ titleContent, products, wa }) {
   let bgHeaderColor;
 
   switch (titleContent) {
@@ -37,6 +37,7 @@ function ContentProduct({ titleContent, products }) {
               titleContent={titleContent}
               image={value.image}
               titleCard={value.name}
+              wa={wa}
               desc={`Nikmati sensasi durian berkualitas tinggi langsung dari kebun!`}
             />
           ))}

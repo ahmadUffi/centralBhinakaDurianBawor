@@ -2,7 +2,7 @@ import React from "react";
 import star from "../assets/image/ic-star.svg";
 import { wa } from "../data";
 
-function CardProduct({ titleContent, titleCard, desc, image }) {
+function CardProduct({ titleContent, titleCard, desc, image, wa }) {
   const numStars = 5;
   let styleBgGradient;
   let styleButton;
@@ -50,11 +50,7 @@ function CardProduct({ titleContent, titleCard, desc, image }) {
             ))}
           </div>
           <div className={styleButton}>
-            <a
-              href={`${wa}6289603014813`}
-              className="text-primary font-semibold"
-              target="_blank"
-            >
+            <a href={wa} className="text-primary font-semibold" target="_blank">
               Hubungi
             </a>
           </div>
