@@ -22,34 +22,7 @@ const Mitra = () => {
                   link={`${m.id}`}
                 />
             )})
-
-              // numbers.map((number) => {
-              //   const isOdd = number % 2 === 1;
-
-              //   return <CardMitra 
-              //     key={ number }
-              //     image={ image1 } 
-              //     title="Durian Delights" 
-              //     desc="Menyediakan berbagai jenis durian premium dari berbagai daerah. Mengutamakan kualitas rasa dengan pilihan durian segar dan produk olahan durian, seperti es krim, pancake, dan smoothie."
-              //     isOdd = { isOdd }
-              //   />
-              // })
             }
-            {/* <CardMitra 
-              image={ image1 } 
-              title="Durian Delights" 
-              desc="Menyediakan berbagai jenis durian premium dari berbagai daerah. Mengutamakan kualitas rasa dengan pilihan durian segar dan produk olahan durian, seperti es krim, pancake, dan smoothie."
-            />
-            <CardMitra
-              image={image1}
-              title="Durian Delights"
-              desc="Menyediakan berbagai jenis durian premium dari berbagai daerah. Mengutamakan kualitas rasa dengan pilihan durian segar dan produk olahan durian, seperti es krim, pancake, dan smoothie."
-            />
-            <CardMitra
-              image={image1}
-              title="Durian Delights"
-              desc="Menyediakan berbagai jenis durian premium dari berbagai daerah. Mengutamakan kualitas rasa dengan pilihan durian segar dan produk olahan durian, seperti es krim, pancake, dan smoothie."
-            /> */}
           </div>
         </section>
       </Wrapper>
