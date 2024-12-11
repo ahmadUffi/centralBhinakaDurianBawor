@@ -3,7 +3,7 @@ import star from "../assets/image/ic-star.svg";
 import { wa } from "../data";
 import { Link, useLocation } from "react-router-dom";
 
-function CardProduct({ titleContent, titleCard, desc, image, whatsapp }) {
+function CardProduct({ titleContent, titleCard, desc, image, wa }) {
   const numStars = 5;
   const location = useLocation();
   
@@ -65,7 +65,7 @@ function CardProduct({ titleContent, titleCard, desc, image, whatsapp }) {
                 </div>
               </Link> 
             ) : (
-              <a href={ whatsapp } target="_blank" rel="noopener noreferrer">
+              <a href={ wa } target="_blank" rel="noopener noreferrer">
                 <div className={styleButton}>
                   <p className="text-primary font-semibold">Whatsapp</p>
                 </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import CardProduct from "./CardProduct";
 
-function ContentProduct({ titleContent, products, whatsapp }) {
+function ContentProduct({ titleContent, products, wa }) {
   let bgHeaderColor;
 
   switch (titleContent) {
@@ -17,8 +17,7 @@ function ContentProduct({ titleContent, products, whatsapp }) {
     default:
       break;
   }
-  // const BgHeaderColor = titleContent === "BIBIT" ? "bg-[#A7BC2E]" : "bg-darkYellow"
-  console.log(products);
+
   return (
     <>
       <div className="flex flex-col py-10 custom-shadow rounded-2xl items-center gap-y-10 mt-7 px-7 mb-5 ">
@@ -39,8 +38,7 @@ function ContentProduct({ titleContent, products, whatsapp }) {
               image={value.image} 
               titleCard={value.name} 
               desc={value.desc} 
-              // desc={`Nikmati sensasi durian berkualitas tinggi langsung dari kebun!`} 
-              whatsapp={ whatsapp }
+              wa={wa}
             />
           ))}
         </div>

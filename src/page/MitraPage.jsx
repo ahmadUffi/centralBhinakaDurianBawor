@@ -50,7 +50,7 @@ const MitraPage = () => {
             Galeri
           </h1>
           <div className="">
-            <Galeri />
+            <Galeri datas={ target.galeri } />
           </div>
         </div>
         {/* akhir galeri */}

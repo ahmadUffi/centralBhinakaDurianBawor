@@ -42,21 +42,21 @@ import Waluyo5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_5.JPG
 import Waluyo6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_6.JPG";
 import Waluyo7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_waluyo_7.JPG";
 
-import mbah1 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_1.JPG";
-import mbah2 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_2.JPG";
-import mbah3 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_3.JPG";
-import mbah4 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_4.JPG";
-import mbah5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_5.JPG";
-import mbah6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_6.JPG";
-import mbah7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_mbah_7.JPG";
+import mbah1 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_1.JPG";
+import mbah2 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_2.JPG";
+import mbah3 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_3.JPG";
+import mbah4 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_4.JPG";
+import mbah5 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_5.JPG";
+import mbah6 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_6.JPG";
+import mbah7 from "./assets/image/mitra/gallery/mbahDuren/gallery_mbah_7.JPG";
 
-import kliwon1 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_1.JPG";
-import kliwon2 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_2.JPG";
-import kliwon3 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_3.JPG";
-import kliwon4 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_4.JPG";
-import kliwon5 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_5.JPG";
-import kliwon6 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_6.JPG";
-import kliwon7 from "./assets/image/mitra/gallery/ediWaluyo/gallery_kliwon_7.JPG";
+import kliwon1 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_1.JPG";
+import kliwon2 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_2.JPG";
+import kliwon3 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_3.JPG";
+import kliwon4 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_4.JPG";
+import kliwon5 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_5.JPG";
+import kliwon6 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_6.JPG";
+import kliwon7 from "./assets/image/mitra/gallery/kliwon/gallery_kliwon_7.JPG";
 
 // Foto TOKO
 import tokoSarno from "./assets/image/mitra/fotoToko/tokoSarno.jpg";
@@ -84,10 +84,33 @@ const mitra = [
     linkMap:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.2298550186238!2d109.3132639!3d-7.584144800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65443be24c5489%3A0x8c3020f13b40cec1!2sDurian%20Bhineka%20Bawor%20Sarno%20KEMRANJEN!5e1!3m2!1sid!2sid!4v1733414021574!5m2!1sid!2sid",
     alamat: "Desa Pageralam",
-    linkWhatsapp: `${wa}6281234567890`,
+    linkWhatsapp: `${wa}6281328933448`,
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}`,
     galeri: [Sarno1, Sarno2, Sarno3, Sarno4, Sarno5, Sarno6, Sarno7],
+    listProducts: [
+      {
+        id: 1,
+        title: "Catalog Durian",
+        image: catalogDurian,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+      {
+        id: 2,
+        title: "Catalog Bibit",
+        image: catalogBibit,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+      {
+        id: 3,
+        title: "Catalog Olahan",
+        image: catalogOlahan,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+    ],
     fasilitas: [
       {
         id: 1,
@@ -140,6 +163,29 @@ const mitra = [
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}`,
     galeri: [Waluyo1, Waluyo2, Waluyo3, Waluyo4, Waluyo5, Waluyo6, Waluyo7],
+    listProducts: [
+      {
+        id: 1,
+        title: "Catalog Durian",
+        image: catalogDurian,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+      {
+        id: 2,
+        title: "Catalog Bibit",
+        image: catalogBibit,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+    ],
+    // galeri: [
+    //   `${drivePath}11FMBA12udoeg0kOlw0Fmxe6rxAvpn4dA${size}`,
+    //   `${drivePath}1ss5xFxhF374SYYYVzpyGD_wV9CXiO1rB${size}`,
+    //   `${drivePath}1ZO6Itz7Feg8ANQC1vxgccO7wXlQFa29C${size}`,
+    //   `${drivePath}1UsEridFUbWyQNlLDAK7EAobwq21TfP53${size}`,
+    //   `${drivePath}1MbQiloIa4A8Ngp_dpmSTcJzDIpRSO06l${size}`,
+    // ],
     fasilitas: [
       {
         id: 1,
@@ -195,6 +241,22 @@ const mitra = [
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}`,
     galeri: [mbah1, mbah2, mbah3, mbah4, mbah5, mbah6, mbah7],
+    listProducts: [
+      {
+        id: 1,
+        title: "Catalog Durian",
+        image: catalogDurian,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+      {
+        id: 2,
+        title: "Catalog Bibit",
+        image: catalogBibit,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+    ],
     fasilitas: [
       {
         id: 1,
@@ -203,7 +265,7 @@ const mitra = [
           "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
       },
     ],
-    products: {
+    product: {
       productsDurian: [
         { id: 1, name: "Durian Bawor", image: DurianBawor, desc : "Durian premium dengan rasa manis yang berpadu sempurna, daging tebal yang lembut, dan aroma yang khas." },
         { id: 2, name: "Durian Musang King", image: DurianMusangKing, desc : "Musang King! Nikmati cita rasa manis intens dengan tekstur super creamy dan aroma eksklusif yang khas." },
@@ -238,6 +300,22 @@ const mitra = [
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}DurenPakKliwon`,
     galeri: [kliwon1, kliwon2, kliwon3, kliwon4, kliwon5, kliwon6, kliwon7],
+    listProducts: [
+      {
+        id: 1,
+        title: "Catalog Durian",
+        image: catalogDurian,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+      {
+        id: 2,
+        title: "Catalog Bibit",
+        image: catalogBibit,
+        description:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidemenim non in aliquid, optio unde earum porro dolores sapiente nemo!",
+      },
+    ],
     fasilitas: [
       {
         id: 1,

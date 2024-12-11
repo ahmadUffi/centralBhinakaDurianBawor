@@ -1,7 +1,6 @@
 import React from "react";
 import Wrapper from "../components/Wrapper";
 import Welcome from "../components/Welcome";
-import Catalog from "../components/Catalog";
 import Galeri from "../components/Galeri";
 import Komunitas from "../components/Komunitas";
 import MapEmbed from "../components/MapsTugu";

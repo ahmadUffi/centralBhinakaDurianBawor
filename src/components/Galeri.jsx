@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-const Galeri = () => {
+const Galeri = ({ datas }) => {
   const [swiperKey, setSwiperKey] = useState(0);
   const [slideConfig, setSlideConfig] = useState(3);
   const [size, setSize] = useState();
@@ -79,9 +79,9 @@ const Galeri = () => {
         }}
         modules={[EffectCoverflow, Navigation]}
       >
-        {[...Array(7)].map((_, index) => (
+        {datas.map((data, index) => (
           <SwiperSlide key={index}>
-            <img src={gambar} alt={`Slide ${index + 1}`} />
+            <img src={data} alt={`Slide ${index + 1}`} />
           </SwiperSlide>
         ))}
 
