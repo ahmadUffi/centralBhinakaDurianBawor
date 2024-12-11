@@ -32,13 +32,13 @@ function ContentProduct({ titleContent, products, wa }) {
           {/* Edit lg:gap-x from 28 to 20 */}
 
           {products[titleContent].map((value, index) => (
-            <CardProduct
-              key={index}
-              titleContent={titleContent}
-              image={value.image}
-              titleCard={value.name}
+            <CardProduct 
+              key={index} 
+              titleContent={titleContent} 
+              image={value.image} 
+              titleCard={value.name} 
+              desc={value.desc} 
               wa={wa}
-              desc={`Nikmati sensasi durian berkualitas tinggi langsung dari kebun!`}
             />
           ))}
         </div>

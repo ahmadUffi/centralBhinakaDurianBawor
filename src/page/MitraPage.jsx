@@ -40,7 +40,7 @@ const MitraPage = () => {
               key={index}
               titleContent={categoryProduct}
               products={target.product}
-              wa={target.linkWhatsapp}
+              wa={ target.linkWhatsapp }
             />
           );
         })}
@@ -50,7 +50,7 @@ const MitraPage = () => {
             Galeri
           </h1>
           <div className="">
-            <Galeri datas={target.galeri} />
+            <Galeri datas={ target.galeri } />
           </div>
         </div>
         {/* akhir galeri */}

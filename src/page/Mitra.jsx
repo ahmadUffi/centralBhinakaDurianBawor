@@ -21,8 +21,8 @@ const Mitra = () => {
                   isOdd={isOdd}
                   link={`${m.id}`}
                 />
-              );
-            })}
+            )})
+            }
           </div>
         </section>
       </Wrapper>

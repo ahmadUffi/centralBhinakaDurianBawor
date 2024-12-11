@@ -133,16 +133,16 @@ const mitra = [
     ],
     product: {
       productsDurian: [
-        { id: 1, name: "Durian Bawor", image: DurianBawor },
-        { id: 2, name: "Durian Musang King", image: DurianMusangKing },
-        { id: 3, name: "Durian Duri Hitam", image: DurianMasmuarr },
-        { id: 4, name: "Durian Montong", image: DurianMontong },
+        { id: 1, name: "Durian Bawor", image: DurianBawor, desc : "Durian premium dengan rasa manis yang berpadu sempurna, daging tebal yang lembut, dan aroma yang khas." },
+        { id: 2, name: "Durian Musang King", image: DurianMusangKing, desc : "Musang King! Nikmati cita rasa manis intens dengan tekstur super creamy dan aroma eksklusif yang khas." },
+        { id: 3, name: "Durian Duri Hitam", image: DurianMasmuarr, desc : "Pilihan para penikmat durian, dengan kombinasi rasa manis yang elegan, serta tekstur lembut." },
+        { id: 4, name: "Durian Montong", image: DurianMontong, desc : "Durian favorit, daging buahnya yang besar, rasa manis sempurna, dan kepuasan di setiap gigitannya." },
       ],
       productsBibit: [
-        { id: 1, name: "Durian Bawor", image: BibitBawor },
-        { id: 2, name: "Durian Musang King", image: BibitMusangKing },
-        { id: 3, name: "Durian Duri Hitam", image: BibitDuriHitam },
-        { id: 4, name: "Durian Montong", image: BibitMontong },
+        { id: 1, name: "Durian Bawor", image: BibitBawor, desc : "Bibit unggulan dengan pertumbuhan cepat dan adaptasi yang kuat di berbagai kondisi." },
+        { id: 2, name: "Durian Musang King", image: BibitMusangKing, desc : "Pilihan terbaik untuk budidaya durian premium. Bibit ini menghasilkan durian dengan rasa manis pekat." },
+        { id: 3, name: "Durian Duri Hitam", image: BibitDuriHitam, desc : "Bibit populer untuk menghasilkan durian berdaging besar dengan cita rasa manis sempurna." },
+        { id: 4, name: "Durian Montong", image: BibitMontong, desc : "Bibit eksklusif yang menghasilkan durian dengan rasa manis-pahit yang khas dan aroma yang memikat." },
       ],
     },
   },
@@ -211,16 +211,16 @@ const mitra = [
     ],
     product: {
       productsDurian: [
-        { id: 1, name: "Durian Bawor", image: DurianBawor },
-        { id: 2, name: "Durian Musang King", image: DurianMusangKing },
-        { id: 3, name: "Durian Duri Hitam", image: DurianMasmuarr },
-        { id: 4, name: "Durian Montong", image: DurianMontong },
+        { id: 1, name: "Durian Bawor", image: DurianBawor, desc : "Durian premium dengan rasa manis yang berpadu sempurna, daging tebal yang lembut, dan aroma yang khas." },
+        { id: 2, name: "Durian Musang King", image: DurianMusangKing, desc : "Musang King! Nikmati cita rasa manis intens dengan tekstur super creamy dan aroma eksklusif yang khas." },
+        { id: 3, name: "Durian Duri Hitam", image: DurianMasmuarr, desc : "Pilihan para penikmat durian, dengan kombinasi rasa manis yang elegan, serta tekstur lembut." },
+        { id: 4, name: "Durian Montong", image: DurianMontong, desc : "Durian favorit, daging buahnya yang besar, rasa manis sempurna, dan kepuasan di setiap gigitannya." },
       ],
       productsBibit: [
-        { id: 1, name: "Durian Bawor", image: BibitBawor },
-        { id: 2, name: "Durian Musang King", image: BibitMusangKing },
-        { id: 3, name: "Durian Duri Hitam", image: BibitDuriHitam },
-        { id: 4, name: "Durian Montong", image: BibitMontong },
+        { id: 1, name: "Durian Bawor", image: BibitBawor, desc : "Bibit unggulan dengan pertumbuhan cepat dan adaptasi yang kuat di berbagai kondisi." },
+        { id: 2, name: "Durian Musang King", image: BibitMusangKing, desc : "Pilihan terbaik untuk budidaya durian premium. Bibit ini menghasilkan durian dengan rasa manis pekat." },
+        { id: 3, name: "Durian Duri Hitam", image: BibitDuriHitam, desc : "Bibit populer untuk menghasilkan durian berdaging besar dengan cita rasa manis sempurna." },
+        { id: 4, name: "Durian Montong", image: BibitMontong, desc : "Bibit eksklusif yang menghasilkan durian dengan rasa manis-pahit yang khas dan aroma yang memikat." },
       ],
     },
   },
@@ -237,7 +237,7 @@ const mitra = [
     linkMap:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.348193640914!2d109.31422607476364!3d-7.5705864924435655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65459ce5156bc7%3A0xd5f550b874e815fe!2sMbah%20Duren!5e1!3m2!1sid!2sid!4v1733414327071!5m2!1sid!2sid",
     alamat: "Desa Karangsalam, RT 04/02 Kec Kemranjen",
-    linkWhatsapp: `${wa}`,
+    linkWhatsapp: `${wa}6282220421030`,
     linkInstagram: `${ig}`,
     linkFacebook: `${fb}`,
     galeri: [mbah1, mbah2, mbah3, mbah4, mbah5, mbah6, mbah7],
@@ -267,18 +267,19 @@ const mitra = [
     ],
     product: {
       productsDurian: [
-        { id: 1, name: "Durian Bawor", image: DurianBawor },
-        { id: 2, name: "Durian Musang King", image: DurianMusangKing },
-        { id: 3, name: "Durian Duri Hitam", image: DurianMasmuarr },
-        { id: 4, name: "Durian Montong", image: DurianMontong },
-        { id: 5, name: "Durian Lokal", image: DurianMasmuarr },
-        { id: 6, name: "Durian Masmuar", image: DurianMasmuarr },
+        { id: 1, name: "Durian Bawor", image: DurianBawor, desc : "Durian premium dengan rasa manis yang berpadu sempurna, daging tebal yang lembut, dan aroma yang khas." },
+        { id: 2, name: "Durian Musang King", image: DurianMusangKing, desc : "Musang King! Nikmati cita rasa manis intens dengan tekstur super creamy dan aroma eksklusif yang khas." },
+        { id: 3, name: "Durian Duri Hitam", image: DurianMasmuarr, desc : "Pilihan para penikmat durian, dengan kombinasi rasa manis yang elegan, serta tekstur lembut." },
+        { id: 4, name: "Durian Montong", image: DurianMontong, desc : "Durian favorit, daging buahnya yang besar, rasa manis sempurna, dan kepuasan di setiap gigitannya." },
+        { id: 5, name: "Durian Lokal", image: DurianMasmuarr, desc : "Durian khas lokal dengan rasa autentik yang memanjakan lidah, sempurna untuk pecinta durian tradisional." },
+        { id: 6, name: "Durian Masmuar", image: DurianMasmuarr, desc : "Durian premium dengan rasa manis yang kuat dan tekstur lembut, pilihan terbaik untuk kenikmatan durian sejati." },
+        
       ],
       productsBibit: [
-        { id: 1, name: "Durian Bawor", image: BibitBawor },
-        { id: 2, name: "Durian Musang King", image: BibitMusangKing },
-        { id: 3, name: "Durian Duri Hitam", image: BibitDuriHitam },
-        { id: 4, name: "Durian Montong", image: BibitMontong },
+        { id: 1, name: "Durian Bawor", image: BibitBawor, desc : "Bibit unggulan dengan pertumbuhan cepat dan adaptasi yang kuat di berbagai kondisi." },
+        { id: 2, name: "Durian Musang King", image: BibitMusangKing, desc : "Pilihan terbaik untuk budidaya durian premium. Bibit ini menghasilkan durian dengan rasa manis pekat." },
+        { id: 3, name: "Durian Duri Hitam", image: BibitDuriHitam, desc : "Bibit populer untuk menghasilkan durian berdaging besar dengan cita rasa manis sempurna." },
+        { id: 4, name: "Durian Montong", image: BibitMontong, desc : "Bibit eksklusif yang menghasilkan durian dengan rasa manis-pahit yang khas dan aroma yang memikat." },
       ],
     },
   },
@@ -337,14 +338,14 @@ const mitra = [
     ],
     product: {
       productsDurian: [
-        { id: 1, name: "Durian Bawor", image: DurianBawor },
-        { id: 2, name: "Durian Musang King", image: DurianMusangKing },
-        { id: 3, name: "Durian Duri Hitam", image: DurianMasmuarr },
+        { id: 1, name: "Durian Bawor", image: DurianBawor, desc : "Durian premium dengan rasa manis yang berpadu sempurna, daging tebal yang lembut, dan aroma yang khas." },
+        { id: 2, name: "Durian Musang King", image: DurianMusangKing, desc : "Musang King! Nikmati cita rasa manis intens dengan tekstur super creamy dan aroma eksklusif yang khas." },
+        { id: 3, name: "Durian Duri Hitam", image: DurianMasmuarr, desc : "Pilihan para penikmat durian, dengan kombinasi rasa manis yang elegan, serta tekstur lembut." },
       ],
       productsBibit: [
-        { id: 1, name: "Durian Bawor", image: BibitBawor },
-        { id: 2, name: "Durian Musang King", image: BibitMusangKing },
-        { id: 3, name: "Durian Duri Hitam", image: BibitDuriHitam },
+        { id: 1, name: "Durian Bawor", image: BibitBawor, desc : "Bibit unggulan dengan pertumbuhan cepat dan adaptasi yang kuat di berbagai kondisi." },
+        { id: 2, name: "Durian Musang King", image: BibitMusangKing, desc : "Pilihan terbaik untuk budidaya durian premium. Bibit ini menghasilkan durian dengan rasa manis pekat." },
+        { id: 3, name: "Durian Duri Hitam", image: BibitDuriHitam, desc : "Bibit populer untuk menghasilkan durian berdaging besar dengan cita rasa manis sempurna." },
       ],
     },
   },
@@ -356,21 +357,25 @@ const product = {
       id: 1,
       name: "Durian Bawor",
       image: DurianBawor,
+      desc : "Durian premium dengan rasa manis yang berpadu sempurna, serta daging tebal dan lembut."
     },
     {
       id: 2,
       name: "Durian Musang King",
       image: DurianMusangKing,
+      desc : "Musang King! Nikmati cita rasa manis intens dengan tekstur super creamy dan aroma eksklusif yang khas."
     },
     {
       id: 3,
       name: "Durian Duri Hitam",
       image: DurianMasmuarr,
+      desc : "Pilihan para penikmat durian, dengan kombinasi rasa manis yang elegan, serta tekstur lembut."
     },
     {
       id: 4,
       name: "Durian Montong",
       image: DurianMontong,
+      desc : "Durian favorit, daging buahnya yang besar, rasa manis sempurna, dan kepuasan di setiap gigitannya."
     },
   ],
   productsBibit: [
@@ -378,21 +383,25 @@ const product = {
       id: 1,
       name: "Durian Bawor",
       image: BibitBawor,
+      desc : "Bibit unggulan dengan pertumbuhan cepat dan adaptasi yang kuat di berbagai kondisi."
     },
     {
       id: 2,
       name: "Durian Musang King",
       image: BibitMusangKing,
+      desc : "Pilihan terbaik untuk budidaya durian premium. Bibit ini menghasilkan durian dengan rasa manis pekat."
     },
     {
       id: 3,
       name: "Durian Duri Hitam",
       image: BibitDuriHitam,
+      desc : "Bibit populer untuk menghasilkan durian berdaging besar dengan cita rasa manis sempurna."
     },
     {
       id: 4,
       name: "Durian Montong",
       image: BibitMontong,
+      desc : "Bibit eksklusif yang menghasilkan durian dengan rasa manis-pahit yang khas dan aroma yang memikat."
     },
   ],
   productsOlahan: [
@@ -400,16 +409,19 @@ const product = {
       id: 1,
       name: "Keripik Durian",
       image: Keripik,
+      desc : "Rasakan renyahnya keripik durian yang diolah dari durian pilihan serta aroma khas dan cita rasa autentik."
     },
     {
       id: 2,
       name: "Juice Durian",
       image: Juice,
+      desc : "Segarkan harimu dengan jus durian yang creamy dan lezat! Dibuat dari daging durian berkualitas."
     },
     {
       id: 3,
       name: "Dodol Durian",
       image: Dodol,
+      desc : "Kenikmatan olahan tradisional dengan sentuhan durian premium. Dodol durian ini memiliki tekstur lembut."
     },
   ],
 };
