@@ -23,11 +23,13 @@ function CardMitra({ image, title, desc, isOdd, link = false }) {
                 {title}
               </h1>
               <p className="text-xl text-justify lg:text-left">{desc}</p>
-              <div className="flex justify-center lg:justify-start">
-                <button className="w-full p-2 bg-darkYellow text-stone-900 font-semibold rounded-[10px] transition duration-[400ms] ease-in-out hover:bg-yellow-500 sm:w-[40%] lg:w-max lg:px-5 xl:text-md">
-                  Pelajari lebih lanjut
-                </button>
-              </div>
+              <a href="">
+                <div className="flex justify-center lg:justify-start">
+                  <button className="w-full p-2 bg-darkYellow text-stone-900 font-semibold rounded-[10px] transition duration-[400ms] ease-in-out hover:bg-yellow-500 sm:w-[40%] lg:w-max lg:px-5 xl:text-md">
+                    Pelajari lebih lanjut
+                  </button>
+                </div>
+              </a>
             </div>
           </div>
         </div>

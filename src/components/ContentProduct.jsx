@@ -1,7 +1,7 @@
 import React from "react";
 import CardProduct from "./CardProduct";
 
-function ContentProduct({ titleContent, products }) {
+function ContentProduct({ titleContent, products, whatsapp }) {
   let bgHeaderColor;
 
   switch (titleContent) {
@@ -33,7 +33,15 @@ function ContentProduct({ titleContent, products }) {
           {/* Edit lg:gap-x from 28 to 20 */}
 
           {products[titleContent].map((value, index) => (
-            <CardProduct key={index} titleContent={titleContent} image={value.image} titleCard={value.name} desc={`Nikmati sensasi durian berkualitas tinggi langsung dari kebun!`} />
+            <CardProduct 
+              key={index} 
+              titleContent={titleContent} 
+              image={value.image} 
+              titleCard={value.name} 
+              desc={value.desc} 
+              // desc={`Nikmati sensasi durian berkualitas tinggi langsung dari kebun!`} 
+              whatsapp={ whatsapp }
+            />
           ))}
         </div>
       </div>
