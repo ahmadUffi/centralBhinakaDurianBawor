@@ -22,7 +22,7 @@ function Home() {
     <>
       <Welcome {...welcome} />
       <Wrapper B>
-        <div className="fild">
+        <div className="fild" id="field">
           {/* Catalogs */}
           <CatalogCarousel catalogDatas={catalogData} />
           {/* akhir catalog */}

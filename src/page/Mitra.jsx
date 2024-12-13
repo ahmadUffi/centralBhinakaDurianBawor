@@ -10,19 +10,18 @@ const Mitra = () => {
       <Wrapper>
         <section id="mitra" className="mt-20">
           <div className="mt-24 mb-20">
-            {mitra.map((m, index) => {
-              const isOdd = m.id % 2 === 1;
+            {mitra.map((m) => {
               return (
                 <CardMitra
                   key={m.id}
                   image={m.fotoToko}
                   title={m.toko}
                   desc={m.description}
-                  isOdd={isOdd}
-                  link={`${m.id}`}
+                  isOdd={m.id % 2 == 1}
+                  link={`${m.params}`}
                 />
-            )})
-            }
+              );
+            })}
           </div>
         </section>
       </Wrapper>

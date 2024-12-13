@@ -100,14 +100,15 @@ import KliwonSaung from "./assets/image/mitra/gallery/kliwon/fasilitas/saung.JPG
 const mitra = [
   {
     id: 1,
-    toko: "Bhinneka Bawor",
+    toko: "Bhineka Bawor",
     name: "Sarno",
+    params: "bhinekabawor",
     description:
-      "Saya Sarno, pemilik Bhinneka Bawor, menawarkan berbagai jenis durian premium yang terkenal akan kualitas dan rasanya. Dengan pengalaman bertahun-tahun, saya berkomitmen untuk menyediakan durian terbaik bagi pecinta durian di seluruh Indonesia.",
+      "Saya Sarno, pemilik Bhineka Bawor, menawarkan berbagai jenis durian premium yang terkenal akan kualitas dan rasanya. Dengan pengalaman bertahun-tahun, saya berkomitmen untuk menyediakan durian terbaik bagi pecinta durian di seluruh Indonesia.",
     image: sarno,
     fotoToko: tokoSarno,
     kataPromosi:
-      "Rasakan sensasi durian premium hanya di Bhinneka Bawor, kenikmatan tiada tanding!",
+      "Rasakan sensasi durian premium hanya di Bhineka Bawor, kenikmatan tiada tanding!",
     linkMap:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.2298550186238!2d109.3132639!3d-7.584144800000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65443be24c5489%3A0x8c3020f13b40cec1!2sDurian%20Bhineka%20Bawor%20Sarno%20KEMRANJEN!5e1!3m2!1sid!2sid!4v1733414021574!5m2!1sid!2sid",
     alamat: "Desa Pageralam",
@@ -220,6 +221,7 @@ const mitra = [
     id: 2,
     toko: "Duren Mandiri",
     name: "Edi Waluyo",
+    params: "durenmandiri",
     description:
       "Saya, Edi Waluyo, adalah seorang petani durian yang sudah mengelola Kebun Duren Mandiri selama lebih dari dua dekade. Ketertarikan saya pada durian sudah muncul sejak masa muda, dan selama bertahun-tahun saya mendalami teknik budidaya durian, memilih varietas unggulan, serta mempraktikkan metode perawatan yang alami dan berkelanjutan.",
     image: edy,
@@ -324,6 +326,7 @@ const mitra = [
     id: 3,
     toko: "Mbah Duren",
     name: "Budi Setiawan",
+    params: "mbahduren",
     description:
       "Saya, Budi Setiawan, pemilik Mbah Duren, dengan bangga menghadirkan berbagai jenis durian, termasuk varietas lokal unggulan dan favorit impor. Pengalaman saya bertahun-tahun menjamin setiap durian yang dijual memiliki rasa dan kualitas terbaik.",
     image: budi,
@@ -441,6 +444,7 @@ const mitra = [
     id: 4,
     toko: "Toko Duren Kliwon",
     name: "Sugeng",
+    params: "durenkliwon",
     description:
       "Saya, Sugeng, pendiri Toko Duren Kliwon, menyediakan berbagai pilihan durian favorit dengan fasilitas lengkap untuk kenyamanan pelanggan. Dengan pelayanan terbaik, kami siap memanjakan pecinta durian dari berbagai penjuru.",
     image: sugeng,

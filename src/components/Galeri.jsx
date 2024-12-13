@@ -86,10 +86,10 @@ const Galeri = ({ datas }) => {
         ))}
 
         <div className="slider-controler flex justify-center items-center gap-5 mt-6">
-          <div className="swiper-button-prev">
+          <div className="swiper-button-prev cursor-pointer">
             <IoIosArrowBack size={size} />
           </div>
-          <div className="swiper-button-next">
+          <div className="swiper-button-next cursor-pointer">
             <IoIosArrowForward size={size} />
           </div>
         </div>

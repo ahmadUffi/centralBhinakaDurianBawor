@@ -5,7 +5,7 @@ import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 function CatalogCarousel({ catalogDatas }) {
   return (
-    <div className="catalog-container">
+    <div className="catalog-container ">
       <div className="title-catalog">
         <h1 className="md:text-[38px] text-[24px] text-center font-medium mt-9">
           Ini akan menjadi alasan kelezatan, dengan{" "}

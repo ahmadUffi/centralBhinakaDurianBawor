@@ -21,7 +21,7 @@ const cardsData = [
 
 const MitraPage = () => {
   const { id } = useParams();
-  const target = mitra.find((target) => target.id == id);
+  const target = mitra.find((target) => target.params == id);
   console.log(target);
   return (
     <div className="mitraPgae">
@@ -31,7 +31,7 @@ const MitraPage = () => {
         description={target.kataPromosi}
       />
       <Wrapper>
-        <div className="w-full field">
+        <div className="w-full field" id="field">
           <CatalogCarousel catalogDatas={target.listProducts} />
         </div>
         {Object.keys(target.product).map((categoryProduct, index) => {

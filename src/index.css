@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "roboto", arial, helvetica, sans-serif;
   background-color: #f8f8f8;
@@ -15,7 +19,8 @@ body {
 
 /* custom-shadow.css for card Mitra.jsx */
 .custom-shadow {
-  box-shadow: 0 4px 6px rgba(68, 66, 66, 0.1), 4px 0 6px rgba(68, 66, 66, 0.1), -4px 0 6px rgba(68, 66, 66, 0.1), 0 -4px 6px rgba(68, 66, 66, 0.1);
+  box-shadow: 0 4px 6px rgba(68, 66, 66, 0.1), 4px 0 6px rgba(68, 66, 66, 0.1),
+    -4px 0 6px rgba(68, 66, 66, 0.1), 0 -4px 6px rgba(68, 66, 66, 0.1);
 }
 
 /* Custom Box Shadow for CardProduct.jsx */

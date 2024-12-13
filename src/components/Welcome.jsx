@@ -22,9 +22,11 @@ const Welcome = ({ bgOverlayRight, name, description }) => {
           TO {name}
         </h2>
         <p>{description}</p>
-        <button className="py-2 px-6 bg-darkYellow rounded-full font-bold mt-3">
-          Lebih Banyak
-        </button>
+        <a href="#field">
+          <button className="py-2 px-6 bg-darkYellow rounded-full font-bold mt-3">
+            Lebih Banyak
+          </button>
+        </a>
       </div>
     </div>
   );
