@@ -15,6 +15,7 @@ const Welcome = ({ bgOverlayRight, name, description }) => {
         src={bgOverlayRight}
         alt="bg"
         className="absolute bottom-0 right-0 lg:w-[30%] md:w-[50%] w-[60%] "
+        loading="lazy"
       />
       <div className="wrap mt-[25vh] relative z-10 text-center lg:w-[50%] md:w-[80%] md:ml-[10dvw] p-1">
         <h1 className="md:text-[98px] text-[58px] font-bold">Welcome</h1>

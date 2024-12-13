@@ -18,6 +18,7 @@ const Komunitas = () => {
           src={img}
           alt=""
           className="lg:max-w-4xl md:max-w-xl max-w-[250px] md:rounded-2xl aspect-video"
+          loading="lazy"
         />
       </div>
 

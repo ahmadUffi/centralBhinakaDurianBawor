@@ -16,6 +16,7 @@ function CardMitra({ image, title, desc, isOdd, link = false }) {
                 src={image}
                 className="md:w-[400px] w-[300px] rounded-lg shadow-xl"
                 alt="Mitra_1"
+                loading={"lazy"}
               />
             </div>
             <div className="flex flex-col gap-y-4 lg:order-1 lg:w-1/2 lg:gap-y-8">

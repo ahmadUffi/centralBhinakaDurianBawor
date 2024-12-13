@@ -12,7 +12,7 @@ const Catalog = ({ img, description }) => {
             <img src={img} alt="" className="w-full h-full " />
           </div>
           <div className="logo z-30 absolute top-0 left-0">
-            <img src={logo} alt="logo" width={"40%"} />
+            <img src={logo} alt="logo" width={"70%"} />
           </div>
           <div className="z-40 content_catalog absolute bottom-0 text-white py-4 px-4">
             <div className="title w-max "></div>

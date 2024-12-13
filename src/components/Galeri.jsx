@@ -81,7 +81,7 @@ const Galeri = ({ datas }) => {
       >
         {datas.map((data, index) => (
           <SwiperSlide key={index}>
-            <img src={data} alt={`Slide ${index + 1}`} />
+            <img src={data} alt={`Slide ${index + 1}`} loading={"lazy"} />
           </SwiperSlide>
         ))}
 
