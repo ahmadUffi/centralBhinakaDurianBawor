@@ -90,7 +90,7 @@ import sarnoParkir from "./assets/image/mitra/gallery/sarno/fasilitas/parkir.jpg
 // Foto fasilitas [Waluyo]
 import WaluyoSaung from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/saung.JPG";
 import WaluyoMusola from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/musola.JPG";
-import WaluyoParkir from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/edyParkir.JPG";
+import WaluyoParkir from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/edyParkir.jpg";
 
 // Foto fasilitas [Mbah Duren]
 import MbahTempatDuduk from "./assets/image/mitra/gallery/mbahDuren/fasilitas/tempatDuduk.JPG";
