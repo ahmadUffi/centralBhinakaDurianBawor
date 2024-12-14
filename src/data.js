@@ -90,6 +90,7 @@ import sarnoParkir from "./assets/image/mitra/gallery/sarno/fasilitas/parkir.jpg
 // Foto fasilitas [Waluyo]
 import WaluyoSaung from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/saung.JPG";
 import WaluyoMusola from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/musola.JPG";
+import WaluyoParkir from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/edyParkir.JPG";
 
 // Foto fasilitas [Mbah Duren]
 import MbahTempatDuduk from "./assets/image/mitra/gallery/mbahDuren/fasilitas/tempatDuduk.JPG";
@@ -272,6 +273,13 @@ const mitra = [
         image: WaluyoMusola,
         description:
           "Musala untuk beribadah dengan fasilitas yang lengkap dan nyaman. Kebersihan selalu dijaga dengan baik, serta tersedia tempat wudu yang mudah diakses. Musala ini dilengkapi dengan sajadah, mukena, dan sarung yang bersih, serta pencahayaan yang cukup untuk memberikan kenyamanan saat beribadah.",
+      },
+      {
+        id: 3,
+        name: "Tempat Parkir",
+        image: WaluyoParkir,
+        description:
+          "Area parkir yang luas dan nyaman dengan akses mudah ke berbagai fasilitas. Lokasi ini dikelilingi oleh pemandangan alam yang indah, cocok untuk singgah sebelum menikmati aktivitas di sekitar.",
       },
     ],
     product: {
