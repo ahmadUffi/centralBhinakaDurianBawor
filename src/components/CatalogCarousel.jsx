@@ -3,13 +3,12 @@ import Catalog from "./Catalog";
 import { Pagination } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-function CatalogCarousel({ catalogDatas }) {
+function CatalogCarousel({ catalogDatas, desc }) {
   return (
     <div className="catalog-container ">
-      <div className="title-catalog">
-        <h1 className="md:text-[38px] text-[24px] text-center font-medium mt-9">
-          Ini akan menjadi alasan kelezatan, dengan{" "}
-          <br className="hidden md:block" /> cita rasa unik dan menarik
+      <div className="title-catalog md:p-11">
+        <h1 className="md:text-[18px] text-[14px] text-center font-medium mt-9 ">
+          {desc}
         </h1>
       </div>
       <div className="catalogs flex  justify-evenly mt-5 ">

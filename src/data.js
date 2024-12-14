@@ -85,6 +85,7 @@ import galeri12 from "./assets/image/galeriHome/12.JPG";
 import SarnoSaung from "./assets/image/mitra/gallery/sarno/fasilitas/saung.JPG";
 import SarnoKamarMandi from "./assets/image/mitra/gallery/sarno/fasilitas/kamarMandi.jpg";
 import SarnoMusola from "./assets/image/mitra/gallery/sarno/fasilitas/musola.jpg";
+import sarnoParkir from "./assets/image/mitra/gallery/sarno/fasilitas/parkir.jpg";
 
 // Foto fasilitas [Waluyo]
 import WaluyoSaung from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/saung.JPG";
@@ -93,7 +94,6 @@ import WaluyoMusola from "./assets/image/mitra/gallery/ediWaluyo/fasilitas/musol
 // Foto fasilitas [Mbah Duren]
 import MbahTempatDuduk from "./assets/image/mitra/gallery/mbahDuren/fasilitas/tempatDuduk.JPG";
 import MbahTempatParkir from "./assets/image/mitra/gallery/mbahDuren/fasilitas/tempatParkir.JPG";
-
 // Foto fasilitas [Kliwon]
 import KliwonSaung from "./assets/image/mitra/gallery/kliwon/fasilitas/saung.JPG";
 
@@ -160,6 +160,13 @@ const mitra = [
         image: SarnoKamarMandi,
         description:
           "Fasilitas toilet umum yang bersih dan terawat, tersedia untuk pengunjung. Toilet dilengkapi dengan pencahayaan yang baik, air bersih, dan sabun untuk memastikan kenyamanan pengguna.",
+      },
+      {
+        id: 4,
+        name: "Tempat Parkir",
+        image: sarnoParkir,
+        description:
+          "Area parkir yang luas dan nyaman dengan akses mudah ke berbagai fasilitas. Lokasi ini dikelilingi oleh pemandangan alam yang indah, cocok untuk singgah sebelum menikmati aktivitas di sekitar.",
       },
     ],
     product: {
@@ -369,7 +376,7 @@ const mitra = [
         name: "Tempat Parkir",
         image: MbahTempatParkir,
         description:
-          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
+          "Area parkir yang luas dan nyaman dengan akses mudah ke berbagai fasilitas. Lokasi ini dikelilingi oleh pemandangan alam yang indah, cocok untuk singgah sebelum menikmati aktivitas di sekitar.",
       },
     ],
     product: {
@@ -476,10 +483,10 @@ const mitra = [
     fasilitas: [
       {
         id: 1,
-        name: "Saung",
+        name: "Tempat Parkir",
         image: KliwonSaung,
         description:
-          "Tempat bersantai menikmati durian dengan pemandangan alam yang asri dan udara yang sejuk. Saung ini didesain untuk memberikan kenyamanan maksimal bagi para pengunjung, cocok untuk keluarga maupun teman-teman.",
+          "Area parkir yang luas dan nyaman dengan akses mudah ke berbagai fasilitas. Lokasi ini dikelilingi oleh pemandangan alam yang indah, cocok untuk singgah sebelum menikmati aktivitas di sekitar.",
       },
       {
         id: 2,
